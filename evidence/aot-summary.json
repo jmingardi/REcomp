@@ -1,0 +1,26 @@
+{
+  "game_id": "SLUS-00170",
+  "recipe_count": 12,
+  "all_pairs_valid": true,
+  "all_guards_match_known_input_bytes": true,
+  "full_static_coverage_proven": false,
+  "static": true,
+  "published_variants": 27336,
+  "required_images": [
+    "PSX/PROG2/ENDING.EXE",
+    "PSX/PROG2/LOGO.EXE",
+    "PSX/PROG2/PROLOGUE.EXE",
+    "PSX/PROG2/SELECT.EXE",
+    "PSX/PROG2/STAGE1.EXE",
+    "PSX/PROG2/STAGE2.EXE",
+    "PSX/PROG2/STAGE3.EXE",
+    "PSX/PROG2/STAGE4.EXE",
+    "PSX/PROG2/STAGE5.EXE",
+    "PSX/PROG2/STAGE6.EXE",
+    "PSX/PROG2/STAGE7.EXE",
+    "PSX/PROG2/TITLE.EXE"
+  ],
+  "original_disc_sha256": "cd861d163ce39aa309b15973ba74d89a736c268b651d008a0ddc1068c58e293e",
+  "profile_sha256": "89ddf7964884ea01bcb395a0230f53e1caf6f3a0b867750715c37ff867495011",
+  "generation_inputs_sha256": "aeafd97b1a2ce9cebef2bbb78f0abdc331bb906505bd9ad2c3348d54c88a118c"
+}

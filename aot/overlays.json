@@ -1,0 +1,29 @@
+{
+  "schema": "psxrecomp AOT methods v1",
+  "game_id": "SLUS-00170",
+  "disc_hashes": {
+    "sha1": "dddb34b5928925d8025e5a5bad9d200a0e4f09b7"
+  },
+  "static_output": "generated/overlays_static.c",
+  "strict_bounds": true,
+  "expected_records": 12,
+  "images": [
+    {
+      "method": "psx_exe",
+      "files": [
+        "PSX/PROG2/ENDING.EXE",
+        "PSX/PROG2/LOGO.EXE",
+        "PSX/PROG2/PROLOGUE.EXE",
+        "PSX/PROG2/SELECT.EXE",
+        "PSX/PROG2/STAGE1.EXE",
+        "PSX/PROG2/STAGE2.EXE",
+        "PSX/PROG2/STAGE3.EXE",
+        "PSX/PROG2/STAGE4.EXE",
+        "PSX/PROG2/STAGE5.EXE",
+        "PSX/PROG2/STAGE6.EXE",
+        "PSX/PROG2/STAGE7.EXE",
+        "PSX/PROG2/TITLE.EXE"
+      ]
+    }
+  ]
+}

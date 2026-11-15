@@ -1,0 +1,89 @@
+--- a/runtime/include/mod_plugins.h
++++ b/runtime/include/mod_plugins.h
+@@ -686,6 +686,11 @@
+  * A value of zero follows the measured host-display refresh rate.
+  */
+ int psx_mod_set_frame_interpolation(uint32_t frames_per_second);
++/* Activation-only presentation request, 60..1000 FPS. Selects OpenGL recorded
++ * geometry redraw with the render thread and caps it to this rate and the
++ * host display. Guest VBlank/audio/logic timing stays stock. A new session
++ * clears the request and restores pipeline preferences. Restart to apply. */
++int psx_mod_request_frame_generation(uint32_t frames_per_second);
+ /*
+  * Choose how the OpenGL presenter combines completed frames. Linear is a
+  * full-frame crossfade. Motion-adaptive retains temporal blending for
+--- a/runtime/src/main.cpp
++++ b/runtime/src/main.cpp
+@@ -1636,6 +1636,16 @@
+ /* [video] frame_generation (docs/FRAME_GENERATION.md), with the render thread. */
+ static int           g_frame_generation = 0;
+ static int           g_frame_generation_method = 0;   /* [video] frame_generation_method: 0 redraw, 1 reprojection */
++/* A trusted title may request bounded presentation-only generation. No guest
++ * clock is changed. Pipeline preferences are restored at the next session. */
++static uint32_t      g_mod_frame_generation_fps = 0;
++static bool          g_mod_frame_generation_applied = false;
++static int           g_mod_fg_saved_thread, g_mod_fg_saved_on, g_mod_fg_saved_method;
++extern "C" int psx_mod_request_frame_generation(uint32_t fps) {
++    if (fps < 60 || fps > 1000) return 0;
++    g_mod_frame_generation_fps = fps;
++    return 1;
++}
+ /* [video] present_thread (docs/RENDER_THREAD.md), with the render thread. */
+ static int           g_present_thread = 0;
+ /* The player's persisted pipeline choice (game.toml default < settings.toml),
+@@ -1893,6 +1903,13 @@
+ }
+ 
+ static void reset_mod_owned_presentation(void) {
++    if (g_mod_frame_generation_applied) {
++        g_render_thread = g_mod_fg_saved_thread;
++        g_frame_generation = g_mod_fg_saved_on;
++        g_frame_generation_method = g_mod_fg_saved_method;
++        g_mod_frame_generation_applied = false;
++    }
++    g_mod_frame_generation_fps = 0;
+     psx_mod_internal_resolution_reset();
+     memcard_set_extension_codec(nullptr, nullptr);
+     debug_server_request(0);
+@@ -10582,7 +10599,10 @@
+         std::fflush(stdout);
+     }
+     if (g_frame_generation)
+-        gl_renderer_frame_gen_configure(g_video_vsync == 2 && g_host_refresh_max_hz > 0.0
++        gl_renderer_frame_gen_configure(g_mod_frame_generation_fps ?
++                                            std::min((double)g_mod_frame_generation_fps,
++                                                g_host_refresh_max_hz > 0.0 ? g_host_refresh_max_hz : g_host_refresh_hz) :
++                                        g_video_vsync == 2 && g_host_refresh_max_hz > 0.0
+                                             ? g_host_refresh_max_hz : g_host_refresh_hz,
+                                         g_guest_frame_period_ms > 0.0
+                                             ? 1000.0 / g_guest_frame_period_ms : 0.0);
+@@ -20556,6 +20576,11 @@
+     DiscMenuSession disc_menu_session{};
+ 
+ session_reboot:
++    if (g_mod_frame_generation_fps) {
++        g_video_renderer = 1;  /* recorded geometry redraw needs OpenGL */
++        g_video_vsync = 0;    /* renderer paces the original + intermediate frames */
++        mod_runtime_note_vsync_forced_off();
++    }
+     /* A new backend/session must not inherit the prior applied settings or
+      * a refused live request. Capture its boot baseline again on first read. */
+     g_video_boot_valid = false;
+@@ -20869,6 +20894,17 @@
+     }
+     if (const char* e = std::getenv("PSX_RENDER_THREAD_FRAMES"))
+         g_render_thread_frames = std::atoi(e) > 0 ? std::atoi(e) : 2;
++    if (g_mod_frame_generation_fps) {
++        g_mod_fg_saved_thread = g_render_thread;
++        g_mod_fg_saved_on = g_frame_generation;
++        g_mod_fg_saved_method = g_frame_generation_method;
++        g_mod_frame_generation_applied = true;
++        g_render_thread = 1;
++        g_frame_generation = 1;
++        g_frame_generation_method = GL_FG_METHOD_REDRAW;
++        std::fprintf(stdout, "psxrecomp: mod requested up to %u FPS geometry redraw; guest timing unchanged\n",
++                     (unsigned)g_mod_frame_generation_fps);
++    }
+     /* Scanlines: env override wins over config, same as the corrections above,
+      * so a headless/free-run boot can be captured with the effect armed from the
+      * first present. PSX_SCANLINES=0/1; PSX_SCANLINE_STRENGTH=0..1. Pushed to the

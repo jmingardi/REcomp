@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "dependencies": [
+    {
+      "name": "psxrecomp",
+      "url": "https://github.com/RetroPortingToolKit/psxrecomp.git",
+      "commit": "b263b8552e5b8838b317f8921dfde8b6aca97904",
+      "role": "primary recompiler and hardware runtime",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "patches": [
+        "patches/psxrecomp-aot-project-root.patch",
+        "patches/psxrecomp-msvc-constexpr.patch",
+        "patches/psxrecomp-portable-atomics.patch",
+        "patches/psxrecomp-bounded-frame-generation.patch"
+      ]
+    },
+    {
+      "name": "ps1-recomp",
+      "url": "https://github.com/PS1Recomp/ps1-recomp.git",
+      "commit": "c68c664ff7ede884928cbfcf4628b97fec9059f6",
+      "role": "reference only; not linked into the port",
+      "license": "GPL-3.0",
+      "optional": true
+    },
+    {
+      "name": "recomp-ui",
+      "url": "https://github.com/RetroPortingToolKit/recomp-ui.git",
+      "commit": "3c641560c32ab55dc169f21daa9ba210a121eb96",
+      "role": "shared native launcher, control remapping and display settings",
+      "license": "MIT",
+      "patches": [
+        "patches/recomp-ui-responsive-keybinds.patch"
+      ]
+    }
+  ]
+}

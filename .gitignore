@@ -1,0 +1,34 @@
+# Original discs and extracted copyrighted files stay local.
+/Resident Evil (USA)/
+/disc/
+*.bin
+*.cue
+*.iso
+*.chd
+*.mcr
+*.mcd
+*.sav
+
+# Translation output is regenerated from the user's disc for this prototype.
+/generated/
+/build/
+/third_party/
+/saves/
+/cache/
+/overlay_cache/
+/overlays/
+__pycache__/
+*.pyc
+/psx_*.json
+/psx_*.jsonl
+/starvation*.jsonl
+/dist/
+
+# Logs and local machine paths; curated evidence summaries are tracked.
+/evidence/*.log
+/evidence/disc_probe.json
+/evidence/smoke*/
+/evidence/qa-*/
+/evidence/active-qa-session.json
+/evidence/relocation-*/
+/evidence/relocation-*.json

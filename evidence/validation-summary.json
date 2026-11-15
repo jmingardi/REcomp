@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-14",
+  "version": "0.0.1-dev",
+  "historical": true,
+  "status": "experimental",
+  "native_executable": "build/game/Release/Resident_Evil_Recompiled.exe",
+  "native_bytes": 31584768,
+  "native_sha256": "caf2146f0954252406f69d64ca027b2cf784e95af15d2f81cf06aafa1a1ca438",
+  "build_command": "python scripts/project.py all --qa",
+  "selected_tests_passed": 7,
+  "selected_tests_total": 7,
+  "broader_test_limitation": "aot_overlay_discovery requires unavailable MinGW GCC for loaded-DLL regression",
+  "source_kit_bootstrap_and_disc_prepare": "passed in separate local extraction; fresh-machine full build not tested",
+  "observations": [
+    {
+      "directory": "smoke-20261114T212952791628Z",
+      "exit_code": 0,
+      "last_frame": null,
+      "dispatch": {
+        "id": 1,
+        "ok": true,
+        "static_hits": 1083091,
+        "miss_total": 0,
+        "miss_unique": 0,
+        "segment_miss_total": 0,
+        "segment_miss_unique": 0
+      },
+      "static_overlay_hits": null,
+      "interpreter_fallback_dispatches": null
+    },
+    {
+      "directory": "smoke-20261114T213516627644Z",
+      "exit_code": 0,
+      "last_frame": 2709,
+      "dispatch": {
+        "id": 1,
+        "ok": true,
+        "static_hits": 1770781,
+        "miss_total": 0,
+        "miss_unique": 0,
+        "segment_miss_total": 0,
+        "segment_miss_unique": 0
+      },
+      "static_overlay_hits": null,
+      "interpreter_fallback_dispatches": null
+    },
+    {
+      "directory": "smoke-20261114T213656957509Z",
+      "exit_code": 0,
+      "last_frame": 6010,
+      "dispatch": {
+        "id": 1,
+        "ok": true,
+        "static_hits": 3656821,
+        "miss_total": 0,
+        "miss_unique": 0,
+        "segment_miss_total": 0,
+        "segment_miss_unique": 0
+      },
+      "static_overlay_hits": 31875,
+      "interpreter_fallback_dispatches": 52639
+    },
+    {
+      "directory": "smoke-20261114T214124075855Z",
+      "exit_code": 0,
+      "last_frame": 10808,
+      "dispatch": {
+        "id": 1,
+        "ok": true,
+        "static_hits": 6303577,
+        "miss_total": 0,
+        "miss_unique": 0,
+        "segment_miss_total": 0,
+        "segment_miss_unique": 0
+      },
+      "static_overlay_hits": 33623,
+      "interpreter_fallback_dispatches": 65179
+    },
+    {
+      "directory": "smoke-20261114T214501826283Z",
+      "exit_code": 0,
+      "last_frame": 10818,
+      "dispatch": {
+        "id": 1,
+        "ok": true,
+        "static_hits": 6294879,
+        "miss_total": 0,
+        "miss_unique": 0,
+        "segment_miss_total": 0,
+        "segment_miss_unique": 0
+      },
+      "static_overlay_hits": 42559,
+      "interpreter_fallback_dispatches": 65407,
+      "visually_reviewed": [
+        "title",
+        "jill_selection",
+        "opening_mansion_scene",
+        "first_door",
+        "dining_room",
+        "walking",
+        "turning",
+        "camera_changes",
+        "inventory_reopening"
+      ]
+    }
+  ],
+  "campaign_completed": false,
+  "audio_listening_verified": false,
+  "physical_gamepad_verified": false,
+  "ordinary_memory_card_save_load_verified": false
+}

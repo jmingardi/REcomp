@@ -1,0 +1,22 @@
+diff --git a/tools/aot_overlay_pipeline.py b/tools/aot_overlay_pipeline.py
+index ee76afe..8249c21 100644
+--- a/tools/aot_overlay_pipeline.py
++++ b/tools/aot_overlay_pipeline.py
+@@ -1125,6 +1125,8 @@ def run():
+                         help='Read and validate the staged runtime overlay ABI (base or PGXP)')
+     parser.add_argument('--runtime-target', default='psx-runtime')
+     parser.add_argument('--recompiler', type=Path, required=True)
++    parser.add_argument('--project-root', type=Path,
++                        help='Framework/profile lookup root passed to overlay recompilation')
+     parser.add_argument('--work-dir', type=Path, required=True)
+     parser.add_argument('--stage', type=Path)
+     parser.add_argument('--gcc', default='gcc')
+@@ -1214,7 +1216,7 @@ def run():
+         print(f"Staged {receipt['published_pairs']} audited native pairs", flush=True)
+     if args.action == 'static':
+         build_dir = build_static(inventory, config, recompiler, work, out_dir, args.gcc,
+-                                 args.workers, config.parent, args.cps)
++                                 args.workers, args.project_root or config.parent, args.cps)
+         receipt = audit(config, recompiler, None, work / 'runtime-input-inventory.json',
+                         work / 'audit.json', build_dir / STATIC_OUTPUT_NAME)
+         for key in ('profile_sha256', 'original_disc_sha256', 'required_images', 'mod_packages',

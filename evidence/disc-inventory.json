@@ -1,0 +1,4736 @@
+{
+  "file_count": 941,
+  "disc_sha1": "dddb34b5928925d8025e5a5bad9d200a0e4f09b7",
+  "extensions": {
+    ".INF": 1,
+    ".TIM": 28,
+    ".DAT": 5,
+    ".PTC": 1,
+    ".PIX": 56,
+    ".ESP": 1,
+    ".ETM": 1,
+    ".STF": 2,
+    ".EMD": 65,
+    ".DOR": 34,
+    ".IVM": 75,
+    ".STR": 25,
+    ".EMW": 30,
+    ".TMD": 7,
+    ".EXE": 12,
+    ".HED": 35,
+    ".VB": 35,
+    ".HSB": 57,
+    ".BSS": 116,
+    ".RDT": 348,
+    ".XAS": 5,
+    ".70": 1,
+    ".CNF": 1
+  },
+  "files": [
+    {
+      "path": "CAPCOM.INF",
+      "lba": 271038,
+      "size": 1024
+    },
+    {
+      "path": "PSX/DATA/BIO.TIM",
+      "lba": 25,
+      "size": 8768
+    },
+    {
+      "path": "PSX/DATA/BIO_CARD.DAT",
+      "lba": 30,
+      "size": 1052
+    },
+    {
+      "path": "PSX/DATA/BT367.TIM",
+      "lba": 31,
+      "size": 30913
+    },
+    {
+      "path": "PSX/DATA/CAPCOM.PTC",
+      "lba": 47,
+      "size": 548352
+    },
+    {
+      "path": "PSX/DATA/CLIS01.PIX",
+      "lba": 315,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/CONFIG.TIM",
+      "lba": 390,
+      "size": 33312
+    },
+    {
+      "path": "PSX/DATA/CON_BACK.PIX",
+      "lba": 407,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/CORE00.ESP",
+      "lba": 482,
+      "size": 5700
+    },
+    {
+      "path": "PSX/DATA/CORE00.ETM",
+      "lba": 485,
+      "size": 52288
+    },
+    {
+      "path": "PSX/DATA/DIED.TIM",
+      "lba": 511,
+      "size": 66080
+    },
+    {
+      "path": "PSX/DATA/EN05.TIM",
+      "lba": 544,
+      "size": 32832
+    },
+    {
+      "path": "PSX/DATA/EN07.TIM",
+      "lba": 561,
+      "size": 21568
+    },
+    {
+      "path": "PSX/DATA/FONT.TIM",
+      "lba": 572,
+      "size": 99968
+    },
+    {
+      "path": "PSX/DATA/ITEMBOX.TIM",
+      "lba": 621,
+      "size": 10784
+    },
+    {
+      "path": "PSX/DATA/ITEM_ALL.PIX",
+      "lba": 627,
+      "size": 86400
+    },
+    {
+      "path": "PSX/DATA/ITEM_MIX.PIX",
+      "lba": 670,
+      "size": 21600
+    },
+    {
+      "path": "PSX/DATA/JILL01.PIX",
+      "lba": 681,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/MEDAL.PIX",
+      "lba": 756,
+      "size": 2400
+    },
+    {
+      "path": "PSX/DATA/PDEMO0.DAT",
+      "lba": 758,
+      "size": 2452
+    },
+    {
+      "path": "PSX/DATA/PDEMO1.DAT",
+      "lba": 760,
+      "size": 2452
+    },
+    {
+      "path": "PSX/DATA/PDEMO2.DAT",
+      "lba": 762,
+      "size": 2452
+    },
+    {
+      "path": "PSX/DATA/RC1121.PIX",
+      "lba": 764,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/SELECT.TIM",
+      "lba": 839,
+      "size": 67104
+    },
+    {
+      "path": "PSX/DATA/SEL_BACK.PIX",
+      "lba": 872,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/STAFF.STF",
+      "lba": 947,
+      "size": 172266
+    },
+    {
+      "path": "PSX/DATA/STAFF2.STF",
+      "lba": 1032,
+      "size": 182876
+    },
+    {
+      "path": "PSX/DATA/STATUS.TIM",
+      "lba": 1122,
+      "size": 67104
+    },
+    {
+      "path": "PSX/DATA/TITLE.PIX",
+      "lba": 1155,
+      "size": 153600
+    },
+    {
+      "path": "PSX/DATA/TYPE00.TIM",
+      "lba": 1230,
+      "size": 153620
+    },
+    {
+      "path": "PSX/ENEMY/CHAR10.EMD",
+      "lba": 1308,
+      "size": 106224
+    },
+    {
+      "path": "PSX/ENEMY/CHAR11.EMD",
+      "lba": 1360,
+      "size": 112968
+    },
+    {
+      "path": "PSX/ENEMY/CHAR12.EMD",
+      "lba": 1416,
+      "size": 112620
+    },
+    {
+      "path": "PSX/ENEMY/CHAR13.EMD",
+      "lba": 1471,
+      "size": 106624
+    },
+    {
+      "path": "PSX/ENEMY/EM1000.EMD",
+      "lba": 1524,
+      "size": 185788
+    },
+    {
+      "path": "PSX/ENEMY/EM1001.EMD",
+      "lba": 1615,
+      "size": 180924
+    },
+    {
+      "path": "PSX/ENEMY/EM1002.EMD",
+      "lba": 1704,
+      "size": 172804
+    },
+    {
+      "path": "PSX/ENEMY/EM1003.EMD",
+      "lba": 1789,
+      "size": 147104
+    },
+    {
+      "path": "PSX/ENEMY/EM1004.EMD",
+      "lba": 1861,
+      "size": 147104
+    },
+    {
+      "path": "PSX/ENEMY/EM1005.EMD",
+      "lba": 1933,
+      "size": 73636
+    },
+    {
+      "path": "PSX/ENEMY/EM1006.EMD",
+      "lba": 1969,
+      "size": 191476
+    },
+    {
+      "path": "PSX/ENEMY/EM1007.EMD",
+      "lba": 2063,
+      "size": 89672
+    },
+    {
+      "path": "PSX/ENEMY/EM1008.EMD",
+      "lba": 2107,
+      "size": 159300
+    },
+    {
+      "path": "PSX/ENEMY/EM1009.EMD",
+      "lba": 2185,
+      "size": 172384
+    },
+    {
+      "path": "PSX/ENEMY/EM100A.EMD",
+      "lba": 2270,
+      "size": 60936
+    },
+    {
+      "path": "PSX/ENEMY/EM100B.EMD",
+      "lba": 2300,
+      "size": 100972
+    },
+    {
+      "path": "PSX/ENEMY/EM100C.EMD",
+      "lba": 2350,
+      "size": 196384
+    },
+    {
+      "path": "PSX/ENEMY/EM100D.EMD",
+      "lba": 2446,
+      "size": 182504
+    },
+    {
+      "path": "PSX/ENEMY/EM100E.EMD",
+      "lba": 2536,
+      "size": 34948
+    },
+    {
+      "path": "PSX/ENEMY/EM100F.EMD",
+      "lba": 2554,
+      "size": 96404
+    },
+    {
+      "path": "PSX/ENEMY/EM1010.EMD",
+      "lba": 2602,
+      "size": 219836
+    },
+    {
+      "path": "PSX/ENEMY/EM1011.EMD",
+      "lba": 2710,
+      "size": 189132
+    },
+    {
+      "path": "PSX/ENEMY/EM1012.EMD",
+      "lba": 2803,
+      "size": 186496
+    },
+    {
+      "path": "PSX/ENEMY/EM1013.EMD",
+      "lba": 2895,
+      "size": 35284
+    },
+    {
+      "path": "PSX/ENEMY/EM1014.EMD",
+      "lba": 2913,
+      "size": 64716
+    },
+    {
+      "path": "PSX/ENEMY/EM1015.EMD",
+      "lba": 2945,
+      "size": 66928
+    },
+    {
+      "path": "PSX/ENEMY/EM1020.EMD",
+      "lba": 2978,
+      "size": 167708
+    },
+    {
+      "path": "PSX/ENEMY/EM1021.EMD",
+      "lba": 3060,
+      "size": 174340
+    },
+    {
+      "path": "PSX/ENEMY/EM1022.EMD",
+      "lba": 3146,
+      "size": 210216
+    },
+    {
+      "path": "PSX/ENEMY/EM1023.EMD",
+      "lba": 3249,
+      "size": 194472
+    },
+    {
+      "path": "PSX/ENEMY/EM1024.EMD",
+      "lba": 3344,
+      "size": 209388
+    },
+    {
+      "path": "PSX/ENEMY/EM1025.EMD",
+      "lba": 3447,
+      "size": 97876
+    },
+    {
+      "path": "PSX/ENEMY/EM1026.EMD",
+      "lba": 3495,
+      "size": 97096
+    },
+    {
+      "path": "PSX/ENEMY/EM1027.EMD",
+      "lba": 3543,
+      "size": 106380
+    },
+    {
+      "path": "PSX/ENEMY/EM1028.EMD",
+      "lba": 3595,
+      "size": 118400
+    },
+    {
+      "path": "PSX/ENEMY/EM1029.EMD",
+      "lba": 3653,
+      "size": 93636
+    },
+    {
+      "path": "PSX/ENEMY/EM102A.EMD",
+      "lba": 3699,
+      "size": 132024
+    },
+    {
+      "path": "PSX/ENEMY/EM102B.EMD",
+      "lba": 3764,
+      "size": 174004
+    },
+    {
+      "path": "PSX/ENEMY/EM102C.EMD",
+      "lba": 3849,
+      "size": 175200
+    },
+    {
+      "path": "PSX/ENEMY/EM102D.EMD",
+      "lba": 3935,
+      "size": 171304
+    },
+    {
+      "path": "PSX/ENEMY/EM102E.EMD",
+      "lba": 4019,
+      "size": 173296
+    },
+    {
+      "path": "PSX/ENEMY/EM1030.EMD",
+      "lba": 4104,
+      "size": 112664
+    },
+    {
+      "path": "PSX/ENEMY/EM1031.EMD",
+      "lba": 4160,
+      "size": 110548
+    },
+    {
+      "path": "PSX/ENEMY/EM1100.EMD",
+      "lba": 4214,
+      "size": 185788
+    },
+    {
+      "path": "PSX/ENEMY/EM1101.EMD",
+      "lba": 4305,
+      "size": 180924
+    },
+    {
+      "path": "PSX/ENEMY/EM1102.EMD",
+      "lba": 4394,
+      "size": 172804
+    },
+    {
+      "path": "PSX/ENEMY/EM1103.EMD",
+      "lba": 4479,
+      "size": 147104
+    },
+    {
+      "path": "PSX/ENEMY/EM1104.EMD",
+      "lba": 4551,
+      "size": 147104
+    },
+    {
+      "path": "PSX/ENEMY/EM1105.EMD",
+      "lba": 4623,
+      "size": 74176
+    },
+    {
+      "path": "PSX/ENEMY/EM1106.EMD",
+      "lba": 4660,
+      "size": 191476
+    },
+    {
+      "path": "PSX/ENEMY/EM1107.EMD",
+      "lba": 4754,
+      "size": 89492
+    },
+    {
+      "path": "PSX/ENEMY/EM1108.EMD",
+      "lba": 4798,
+      "size": 159300
+    },
+    {
+      "path": "PSX/ENEMY/EM1109.EMD",
+      "lba": 4876,
+      "size": 172384
+    },
+    {
+      "path": "PSX/ENEMY/EM110A.EMD",
+      "lba": 4961,
+      "size": 60936
+    },
+    {
+      "path": "PSX/ENEMY/EM110B.EMD",
+      "lba": 4991,
+      "size": 100972
+    },
+    {
+      "path": "PSX/ENEMY/EM110C.EMD",
+      "lba": 5041,
+      "size": 196384
+    },
+    {
+      "path": "PSX/ENEMY/EM110D.EMD",
+      "lba": 5137,
+      "size": 182504
+    },
+    {
+      "path": "PSX/ENEMY/EM110E.EMD",
+      "lba": 5227,
+      "size": 34948
+    },
+    {
+      "path": "PSX/ENEMY/EM110F.EMD",
+      "lba": 5245,
+      "size": 96404
+    },
+    {
+      "path": "PSX/ENEMY/EM1110.EMD",
+      "lba": 5293,
+      "size": 219836
+    },
+    {
+      "path": "PSX/ENEMY/EM1111.EMD",
+      "lba": 5401,
+      "size": 189132
+    },
+    {
+      "path": "PSX/ENEMY/EM1112.EMD",
+      "lba": 5494,
+      "size": 186496
+    },
+    {
+      "path": "PSX/ENEMY/EM1113.EMD",
+      "lba": 5586,
+      "size": 35284
+    },
+    {
+      "path": "PSX/ENEMY/EM1114.EMD",
+      "lba": 5604,
+      "size": 52948
+    },
+    {
+      "path": "PSX/ENEMY/EM1115.EMD",
+      "lba": 5630,
+      "size": 59676
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR00.DOR",
+      "lba": 5662,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR00K.DOR",
+      "lba": 5701,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR01.DOR",
+      "lba": 5740,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR01K.DOR",
+      "lba": 5779,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR02.DOR",
+      "lba": 5818,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR03.DOR",
+      "lba": 5857,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR03K.DOR",
+      "lba": 5896,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR04.DOR",
+      "lba": 5935,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR05.DOR",
+      "lba": 5974,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR05K.DOR",
+      "lba": 6013,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR06.DOR",
+      "lba": 6052,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR06K.DOR",
+      "lba": 6091,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR07.DOR",
+      "lba": 6130,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR08.DOR",
+      "lba": 6169,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR09.DOR",
+      "lba": 6208,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR10.DOR",
+      "lba": 6247,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR11.DOR",
+      "lba": 6286,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR12.DOR",
+      "lba": 6325,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR13.DOR",
+      "lba": 6364,
+      "size": 78348
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR14.DOR",
+      "lba": 6403,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/DOOR15.DOR",
+      "lba": 6442,
+      "size": 78324
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE01.DOR",
+      "lba": 6481,
+      "size": 55028
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE01A.DOR",
+      "lba": 6508,
+      "size": 55028
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE01B.DOR",
+      "lba": 6535,
+      "size": 55028
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE02.DOR",
+      "lba": 6562,
+      "size": 53852
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE03.DOR",
+      "lba": 6589,
+      "size": 36680
+    },
+    {
+      "path": "PSX/ITEM_M1/ELE04.DOR",
+      "lba": 6607,
+      "size": 58948
+    },
+    {
+      "path": "PSX/ITEM_M1/KAI01.DOR",
+      "lba": 6636,
+      "size": 44788
+    },
+    {
+      "path": "PSX/ITEM_M1/KAI02.DOR",
+      "lba": 6658,
+      "size": 44692
+    },
+    {
+      "path": "PSX/ITEM_M1/KAI03.DOR",
+      "lba": 6680,
+      "size": 44480
+    },
+    {
+      "path": "PSX/ITEM_M1/KAI04.DOR",
+      "lba": 6702,
+      "size": 44692
+    },
+    {
+      "path": "PSX/ITEM_M1/LAD00.DOR",
+      "lba": 6724,
+      "size": 47744
+    },
+    {
+      "path": "PSX/ITEM_M1/LAD01.DOR",
+      "lba": 6748,
+      "size": 47744
+    },
+    {
+      "path": "PSX/ITEM_M1/MON.DOR",
+      "lba": 6772,
+      "size": 46260
+    },
+    {
+      "path": "PSX/ITEM_M2/FILE000.TIM",
+      "lba": 6800,
+      "size": 66080
+    },
+    {
+      "path": "PSX/ITEM_M2/FILE001.TIM",
+      "lba": 6833,
+      "size": 66080
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEMARR.PIX",
+      "lba": 6866,
+      "size": 800
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_00.PIX",
+      "lba": 6867,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_01.PIX",
+      "lba": 6892,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_L0.PIX",
+      "lba": 6917,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_L1.PIX",
+      "lba": 6942,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_M0.PIX",
+      "lba": 6967,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_M1.PIX",
+      "lba": 6992,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_M2.PIX",
+      "lba": 7017,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N0.PIX",
+      "lba": 7042,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N1.PIX",
+      "lba": 7067,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N2.PIX",
+      "lba": 7092,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N3.PIX",
+      "lba": 7117,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N4.PIX",
+      "lba": 7142,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_N5.PIX",
+      "lba": 7167,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_O0.PIX",
+      "lba": 7192,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_O1.PIX",
+      "lba": 7217,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_P0.PIX",
+      "lba": 7242,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Q0.PIX",
+      "lba": 7267,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Q1.PIX",
+      "lba": 7292,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Q2.PIX",
+      "lba": 7317,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_R0.PIX",
+      "lba": 7342,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_R1.PIX",
+      "lba": 7367,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_R2.PIX",
+      "lba": 7392,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_R3.PIX",
+      "lba": 7417,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_S0.PIX",
+      "lba": 7442,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_S1.PIX",
+      "lba": 7467,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_S2.PIX",
+      "lba": 7492,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_S3.PIX",
+      "lba": 7517,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_T0.PIX",
+      "lba": 7542,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_T1.PIX",
+      "lba": 7567,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_T2.PIX",
+      "lba": 7592,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_T3.PIX",
+      "lba": 7617,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_T4.PIX",
+      "lba": 7642,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_U0.PIX",
+      "lba": 7667,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_U1.PIX",
+      "lba": 7692,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_U2.PIX",
+      "lba": 7717,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_V0.PIX",
+      "lba": 7742,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_V1.PIX",
+      "lba": 7767,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_V2.PIX",
+      "lba": 7792,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_W0.PIX",
+      "lba": 7817,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_W1.PIX",
+      "lba": 7842,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_X0.PIX",
+      "lba": 7867,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_X1.PIX",
+      "lba": 7892,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Y0.PIX",
+      "lba": 7917,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Y1.PIX",
+      "lba": 7942,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Z0.PIX",
+      "lba": 7967,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/FILEM_Z1.PIX",
+      "lba": 7992,
+      "size": 49216
+    },
+    {
+      "path": "PSX/ITEM_M2/I00V.IVM",
+      "lba": 8017,
+      "size": 92896
+    },
+    {
+      "path": "PSX/ITEM_M2/I01V.IVM",
+      "lba": 8063,
+      "size": 90208
+    },
+    {
+      "path": "PSX/ITEM_M2/I02V.IVM",
+      "lba": 8108,
+      "size": 91872
+    },
+    {
+      "path": "PSX/ITEM_M2/I03V.IVM",
+      "lba": 8153,
+      "size": 93864
+    },
+    {
+      "path": "PSX/ITEM_M2/I04V.IVM",
+      "lba": 8199,
+      "size": 92488
+    },
+    {
+      "path": "PSX/ITEM_M2/I05V.IVM",
+      "lba": 8245,
+      "size": 88196
+    },
+    {
+      "path": "PSX/ITEM_M2/I06V.IVM",
+      "lba": 8289,
+      "size": 76984
+    },
+    {
+      "path": "PSX/ITEM_M2/I07V.IVM",
+      "lba": 8327,
+      "size": 91752
+    },
+    {
+      "path": "PSX/ITEM_M2/I08V.IVM",
+      "lba": 8372,
+      "size": 84936
+    },
+    {
+      "path": "PSX/ITEM_M2/I09V.IVM",
+      "lba": 8414,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I10V.IVM",
+      "lba": 8460,
+      "size": 74352
+    },
+    {
+      "path": "PSX/ITEM_M2/I11V.IVM",
+      "lba": 8497,
+      "size": 82264
+    },
+    {
+      "path": "PSX/ITEM_M2/I12V.IVM",
+      "lba": 8538,
+      "size": 80632
+    },
+    {
+      "path": "PSX/ITEM_M2/I13V.IVM",
+      "lba": 8578,
+      "size": 80632
+    },
+    {
+      "path": "PSX/ITEM_M2/I14V.IVM",
+      "lba": 8618,
+      "size": 80632
+    },
+    {
+      "path": "PSX/ITEM_M2/I15V.IVM",
+      "lba": 8658,
+      "size": 76344
+    },
+    {
+      "path": "PSX/ITEM_M2/I16V.IVM",
+      "lba": 8696,
+      "size": 86120
+    },
+    {
+      "path": "PSX/ITEM_M2/I17V.IVM",
+      "lba": 8739,
+      "size": 81216
+    },
+    {
+      "path": "PSX/ITEM_M2/I18V.IVM",
+      "lba": 8779,
+      "size": 86984
+    },
+    {
+      "path": "PSX/ITEM_M2/I19V.IVM",
+      "lba": 8822,
+      "size": 80360
+    },
+    {
+      "path": "PSX/ITEM_M2/I20V.IVM",
+      "lba": 8862,
+      "size": 83960
+    },
+    {
+      "path": "PSX/ITEM_M2/I21V.IVM",
+      "lba": 8903,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I22V.IVM",
+      "lba": 8949,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I23V.IVM",
+      "lba": 8995,
+      "size": 81136
+    },
+    {
+      "path": "PSX/ITEM_M2/I24V.IVM",
+      "lba": 9035,
+      "size": 89176
+    },
+    {
+      "path": "PSX/ITEM_M2/I25V.IVM",
+      "lba": 9079,
+      "size": 89176
+    },
+    {
+      "path": "PSX/ITEM_M2/I26V.IVM",
+      "lba": 9123,
+      "size": 83488
+    },
+    {
+      "path": "PSX/ITEM_M2/I27V.IVM",
+      "lba": 9164,
+      "size": 82544
+    },
+    {
+      "path": "PSX/ITEM_M2/I28V.IVM",
+      "lba": 9205,
+      "size": 82048
+    },
+    {
+      "path": "PSX/ITEM_M2/I29V.IVM",
+      "lba": 9246,
+      "size": 78328
+    },
+    {
+      "path": "PSX/ITEM_M2/I30V.IVM",
+      "lba": 9285,
+      "size": 77448
+    },
+    {
+      "path": "PSX/ITEM_M2/I31V.IVM",
+      "lba": 9323,
+      "size": 75384
+    },
+    {
+      "path": "PSX/ITEM_M2/I32V.IVM",
+      "lba": 9360,
+      "size": 75384
+    },
+    {
+      "path": "PSX/ITEM_M2/I33V.IVM",
+      "lba": 9397,
+      "size": 85720
+    },
+    {
+      "path": "PSX/ITEM_M2/I34V.IVM",
+      "lba": 9439,
+      "size": 87936
+    },
+    {
+      "path": "PSX/ITEM_M2/I35V.IVM",
+      "lba": 9482,
+      "size": 93080
+    },
+    {
+      "path": "PSX/ITEM_M2/I36V.IVM",
+      "lba": 9528,
+      "size": 80752
+    },
+    {
+      "path": "PSX/ITEM_M2/I37V.IVM",
+      "lba": 9568,
+      "size": 71040
+    },
+    {
+      "path": "PSX/ITEM_M2/I38V.IVM",
+      "lba": 9603,
+      "size": 75992
+    },
+    {
+      "path": "PSX/ITEM_M2/I39V.IVM",
+      "lba": 9641,
+      "size": 75992
+    },
+    {
+      "path": "PSX/ITEM_M2/I40V.IVM",
+      "lba": 9679,
+      "size": 81776
+    },
+    {
+      "path": "PSX/ITEM_M2/I41V.IVM",
+      "lba": 9719,
+      "size": 86080
+    },
+    {
+      "path": "PSX/ITEM_M2/I42V.IVM",
+      "lba": 9762,
+      "size": 86080
+    },
+    {
+      "path": "PSX/ITEM_M2/I43V.IVM",
+      "lba": 9805,
+      "size": 72984
+    },
+    {
+      "path": "PSX/ITEM_M2/I44V.IVM",
+      "lba": 9841,
+      "size": 76632
+    },
+    {
+      "path": "PSX/ITEM_M2/I45V.IVM",
+      "lba": 9879,
+      "size": 70624
+    },
+    {
+      "path": "PSX/ITEM_M2/I46V.IVM",
+      "lba": 9914,
+      "size": 84536
+    },
+    {
+      "path": "PSX/ITEM_M2/I47V.IVM",
+      "lba": 9956,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I48V.IVM",
+      "lba": 10002,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I49V.IVM",
+      "lba": 10048,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I50V.IVM",
+      "lba": 10094,
+      "size": 87240
+    },
+    {
+      "path": "PSX/ITEM_M2/I51V.IVM",
+      "lba": 10137,
+      "size": 84076
+    },
+    {
+      "path": "PSX/ITEM_M2/I52V.IVM",
+      "lba": 10179,
+      "size": 84076
+    },
+    {
+      "path": "PSX/ITEM_M2/I53V.IVM",
+      "lba": 10221,
+      "size": 82516
+    },
+    {
+      "path": "PSX/ITEM_M2/I54V.IVM",
+      "lba": 10262,
+      "size": 80976
+    },
+    {
+      "path": "PSX/ITEM_M2/I55V.IVM",
+      "lba": 10302,
+      "size": 72256
+    },
+    {
+      "path": "PSX/ITEM_M2/I56V.IVM",
+      "lba": 10338,
+      "size": 87640
+    },
+    {
+      "path": "PSX/ITEM_M2/I57V.IVM",
+      "lba": 10381,
+      "size": 86788
+    },
+    {
+      "path": "PSX/ITEM_M2/I58V.IVM",
+      "lba": 10424,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I59V.IVM",
+      "lba": 10470,
+      "size": 76632
+    },
+    {
+      "path": "PSX/ITEM_M2/I60V.IVM",
+      "lba": 10508,
+      "size": 76632
+    },
+    {
+      "path": "PSX/ITEM_M2/I61V.IVM",
+      "lba": 10546,
+      "size": 76632
+    },
+    {
+      "path": "PSX/ITEM_M2/I62V.IVM",
+      "lba": 10584,
+      "size": 92660
+    },
+    {
+      "path": "PSX/ITEM_M2/I63V.IVM",
+      "lba": 10630,
+      "size": 77440
+    },
+    {
+      "path": "PSX/ITEM_M2/I64V.IVM",
+      "lba": 10668,
+      "size": 94052
+    },
+    {
+      "path": "PSX/ITEM_M2/I65V.IVM",
+      "lba": 10714,
+      "size": 94052
+    },
+    {
+      "path": "PSX/ITEM_M2/I66V.IVM",
+      "lba": 10760,
+      "size": 94052
+    },
+    {
+      "path": "PSX/ITEM_M2/I67V.IVM",
+      "lba": 10806,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/I68V.IVM",
+      "lba": 10850,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/I69V.IVM",
+      "lba": 10894,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/I70V.IVM",
+      "lba": 10938,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/I71V.IVM",
+      "lba": 10982,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/I72V.IVM",
+      "lba": 11026,
+      "size": 80728
+    },
+    {
+      "path": "PSX/ITEM_M2/I73V.IVM",
+      "lba": 11066,
+      "size": 92024
+    },
+    {
+      "path": "PSX/ITEM_M2/I75V.IVM",
+      "lba": 11111,
+      "size": 89432
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP00.TIM",
+      "lba": 11155,
+      "size": 41504
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP01.TIM",
+      "lba": 11176,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP02.TIM",
+      "lba": 11191,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP03.TIM",
+      "lba": 11206,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP04.TIM",
+      "lba": 11221,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP05.TIM",
+      "lba": 11236,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP06.TIM",
+      "lba": 11251,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP07.TIM",
+      "lba": 11266,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP08.TIM",
+      "lba": 11281,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP09.TIM",
+      "lba": 11296,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP0A.TIM",
+      "lba": 11311,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP0B.TIM",
+      "lba": 11326,
+      "size": 29216
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP0C.TIM",
+      "lba": 11341,
+      "size": 41504
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP0D.TIM",
+      "lba": 11362,
+      "size": 41504
+    },
+    {
+      "path": "PSX/ITEM_M2/MAP0E.TIM",
+      "lba": 11383,
+      "size": 41504
+    },
+    {
+      "path": "PSX/MOVIE/CAPCOM.STR",
+      "lba": 11405,
+      "size": 2969600
+    },
+    {
+      "path": "PSX/MOVIE/DM1.STR",
+      "lba": 12855,
+      "size": 2048000
+    },
+    {
+      "path": "PSX/MOVIE/DM2.STR",
+      "lba": 13855,
+      "size": 2048000
+    },
+    {
+      "path": "PSX/MOVIE/DM3.STR",
+      "lba": 14855,
+      "size": 3993600
+    },
+    {
+      "path": "PSX/MOVIE/DM4.STR",
+      "lba": 16805,
+      "size": 4098048
+    },
+    {
+      "path": "PSX/MOVIE/DM6.STR",
+      "lba": 18806,
+      "size": 4507648
+    },
+    {
+      "path": "PSX/MOVIE/DM7.STR",
+      "lba": 21007,
+      "size": 1968128
+    },
+    {
+      "path": "PSX/MOVIE/DM8.STR",
+      "lba": 21968,
+      "size": 3276800
+    },
+    {
+      "path": "PSX/MOVIE/DMB.STR",
+      "lba": 23568,
+      "size": 5836800
+    },
+    {
+      "path": "PSX/MOVIE/DMC.STR",
+      "lba": 26418,
+      "size": 5632000
+    },
+    {
+      "path": "PSX/MOVIE/DMD.STR",
+      "lba": 29168,
+      "size": 3993600
+    },
+    {
+      "path": "PSX/MOVIE/DME.STR",
+      "lba": 31118,
+      "size": 3174400
+    },
+    {
+      "path": "PSX/MOVIE/DMF.STR",
+      "lba": 32668,
+      "size": 2048000
+    },
+    {
+      "path": "PSX/MOVIE/ED1.STR",
+      "lba": 33668,
+      "size": 13619200
+    },
+    {
+      "path": "PSX/MOVIE/ED2.STR",
+      "lba": 40318,
+      "size": 13414400
+    },
+    {
+      "path": "PSX/MOVIE/ED3.STR",
+      "lba": 46868,
+      "size": 12288000
+    },
+    {
+      "path": "PSX/MOVIE/ED4.STR",
+      "lba": 52868,
+      "size": 15052800
+    },
+    {
+      "path": "PSX/MOVIE/ED5.STR",
+      "lba": 60218,
+      "size": 16486400
+    },
+    {
+      "path": "PSX/MOVIE/ED6.STR",
+      "lba": 68268,
+      "size": 14233600
+    },
+    {
+      "path": "PSX/MOVIE/ED7.STR",
+      "lba": 75218,
+      "size": 14438400
+    },
+    {
+      "path": "PSX/MOVIE/ED8.STR",
+      "lba": 82268,
+      "size": 3891200
+    },
+    {
+      "path": "PSX/MOVIE/OJ.STR",
+      "lba": 84168,
+      "size": 3891200
+    },
+    {
+      "path": "PSX/MOVIE/PJ.STR",
+      "lba": 86068,
+      "size": 64675840
+    },
+    {
+      "path": "PSX/MOVIE/STFC.STR",
+      "lba": 117648,
+      "size": 36966400
+    },
+    {
+      "path": "PSX/MOVIE/STFJ.STR",
+      "lba": 135698,
+      "size": 36966400
+    },
+    {
+      "path": "PSX/PLAYERS/W00.EMW",
+      "lba": 153750,
+      "size": 13692
+    },
+    {
+      "path": "PSX/PLAYERS/W01.EMW",
+      "lba": 153757,
+      "size": 20868
+    },
+    {
+      "path": "PSX/PLAYERS/W02.EMW",
+      "lba": 153768,
+      "size": 24028
+    },
+    {
+      "path": "PSX/PLAYERS/W03.EMW",
+      "lba": 153780,
+      "size": 27276
+    },
+    {
+      "path": "PSX/PLAYERS/W04.EMW",
+      "lba": 153794,
+      "size": 29020
+    },
+    {
+      "path": "PSX/PLAYERS/W05.EMW",
+      "lba": 153809,
+      "size": 30992
+    },
+    {
+      "path": "PSX/PLAYERS/W06.EMW",
+      "lba": 153825,
+      "size": 28220
+    },
+    {
+      "path": "PSX/PLAYERS/W07.EMW",
+      "lba": 153839,
+      "size": 19840
+    },
+    {
+      "path": "PSX/PLAYERS/W0B.EMW",
+      "lba": 153849,
+      "size": 15800
+    },
+    {
+      "path": "PSX/PLAYERS/W10.EMW",
+      "lba": 153857,
+      "size": 14708
+    },
+    {
+      "path": "PSX/PLAYERS/W11.EMW",
+      "lba": 153865,
+      "size": 21344
+    },
+    {
+      "path": "PSX/PLAYERS/W12.EMW",
+      "lba": 153876,
+      "size": 25580
+    },
+    {
+      "path": "PSX/PLAYERS/W13.EMW",
+      "lba": 153889,
+      "size": 29036
+    },
+    {
+      "path": "PSX/PLAYERS/W14.EMW",
+      "lba": 153904,
+      "size": 30792
+    },
+    {
+      "path": "PSX/PLAYERS/W15.EMW",
+      "lba": 153920,
+      "size": 31152
+    },
+    {
+      "path": "PSX/PLAYERS/W16.EMW",
+      "lba": 153936,
+      "size": 30480
+    },
+    {
+      "path": "PSX/PLAYERS/W17.EMW",
+      "lba": 153951,
+      "size": 20684
+    },
+    {
+      "path": "PSX/PLAYERS/W1B.EMW",
+      "lba": 153962,
+      "size": 16816
+    },
+    {
+      "path": "PSX/PLAYERS/W20.EMW",
+      "lba": 153971,
+      "size": 13692
+    },
+    {
+      "path": "PSX/PLAYERS/W21.EMW",
+      "lba": 153978,
+      "size": 25080
+    },
+    {
+      "path": "PSX/PLAYERS/W22.EMW",
+      "lba": 153991,
+      "size": 24568
+    },
+    {
+      "path": "PSX/PLAYERS/W23.EMW",
+      "lba": 154003,
+      "size": 25012
+    },
+    {
+      "path": "PSX/PLAYERS/W24.EMW",
+      "lba": 154016,
+      "size": 30140
+    },
+    {
+      "path": "PSX/PLAYERS/W25.EMW",
+      "lba": 154031,
+      "size": 31152
+    },
+    {
+      "path": "PSX/PLAYERS/W30.EMW",
+      "lba": 154047,
+      "size": 14708
+    },
+    {
+      "path": "PSX/PLAYERS/W31.EMW",
+      "lba": 154055,
+      "size": 21344
+    },
+    {
+      "path": "PSX/PLAYERS/W32.EMW",
+      "lba": 154066,
+      "size": 26468
+    },
+    {
+      "path": "PSX/PLAYERS/W33.EMW",
+      "lba": 154079,
+      "size": 26772
+    },
+    {
+      "path": "PSX/PLAYERS/W34.EMW",
+      "lba": 154093,
+      "size": 31156
+    },
+    {
+      "path": "PSX/PLAYERS/W35.EMW",
+      "lba": 154109,
+      "size": 31152
+    },
+    {
+      "path": "PSX/PLAYERS/WS202.TMD",
+      "lba": 154125,
+      "size": 1760
+    },
+    {
+      "path": "PSX/PLAYERS/WS212.TMD",
+      "lba": 154126,
+      "size": 1760
+    },
+    {
+      "path": "PSX/PLAYERS/WS224.TMD",
+      "lba": 154127,
+      "size": 3544
+    },
+    {
+      "path": "PSX/PLAYERS/WS225.TMD",
+      "lba": 154129,
+      "size": 2672
+    },
+    {
+      "path": "PSX/PLAYERS/WS232.TMD",
+      "lba": 154131,
+      "size": 2648
+    },
+    {
+      "path": "PSX/PLAYERS/WS236.TMD",
+      "lba": 154133,
+      "size": 3792
+    },
+    {
+      "path": "PSX/PLAYERS/WS242.TMD",
+      "lba": 154135,
+      "size": 2648
+    },
+    {
+      "path": "PSX/PROG2/ENDING.EXE",
+      "lba": 154138,
+      "size": 26624
+    },
+    {
+      "path": "PSX/PROG2/LOGO.EXE",
+      "lba": 154151,
+      "size": 6144
+    },
+    {
+      "path": "PSX/PROG2/PROLOGUE.EXE",
+      "lba": 154154,
+      "size": 4096
+    },
+    {
+      "path": "PSX/PROG2/SELECT.EXE",
+      "lba": 154156,
+      "size": 24576
+    },
+    {
+      "path": "PSX/PROG2/STAGE1.EXE",
+      "lba": 154168,
+      "size": 122880
+    },
+    {
+      "path": "PSX/PROG2/STAGE2.EXE",
+      "lba": 154228,
+      "size": 120832
+    },
+    {
+      "path": "PSX/PROG2/STAGE3.EXE",
+      "lba": 154287,
+      "size": 190464
+    },
+    {
+      "path": "PSX/PROG2/STAGE4.EXE",
+      "lba": 154380,
+      "size": 192512
+    },
+    {
+      "path": "PSX/PROG2/STAGE5.EXE",
+      "lba": 154474,
+      "size": 169984
+    },
+    {
+      "path": "PSX/PROG2/STAGE6.EXE",
+      "lba": 154557,
+      "size": 151552
+    },
+    {
+      "path": "PSX/PROG2/STAGE7.EXE",
+      "lba": 154631,
+      "size": 163840
+    },
+    {
+      "path": "PSX/PROG2/TITLE.EXE",
+      "lba": 154711,
+      "size": 8192
+    },
+    {
+      "path": "PSX/SOUND/BIO.HED",
+      "lba": 154719,
+      "size": 3240
+    },
+    {
+      "path": "PSX/SOUND/BIO.VB",
+      "lba": 154721,
+      "size": 79760
+    },
+    {
+      "path": "PSX/SOUND/CHAR00.HED",
+      "lba": 154760,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR00.VB",
+      "lba": 154762,
+      "size": 31456
+    },
+    {
+      "path": "PSX/SOUND/CHAR01.HED",
+      "lba": 154778,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR01.VB",
+      "lba": 154780,
+      "size": 33664
+    },
+    {
+      "path": "PSX/SOUND/CHAR02.HED",
+      "lba": 154797,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR02.VB",
+      "lba": 154799,
+      "size": 31120
+    },
+    {
+      "path": "PSX/SOUND/CHAR03.HED",
+      "lba": 154815,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR03.VB",
+      "lba": 154817,
+      "size": 34592
+    },
+    {
+      "path": "PSX/SOUND/CHAR04.HED",
+      "lba": 154834,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR04.VB",
+      "lba": 154836,
+      "size": 36864
+    },
+    {
+      "path": "PSX/SOUND/CHAR05.HED",
+      "lba": 154854,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/CHAR05.VB",
+      "lba": 154856,
+      "size": 36816
+    },
+    {
+      "path": "PSX/SOUND/DOORAIR.HED",
+      "lba": 154874,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORAIR.VB",
+      "lba": 154876,
+      "size": 24768
+    },
+    {
+      "path": "PSX/SOUND/DOORBRK.HED",
+      "lba": 154889,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORBRK.VB",
+      "lba": 154891,
+      "size": 24976
+    },
+    {
+      "path": "PSX/SOUND/DOORELV.HED",
+      "lba": 154904,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORELV.VB",
+      "lba": 154906,
+      "size": 23552
+    },
+    {
+      "path": "PSX/SOUND/DOORFTN.HED",
+      "lba": 154918,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORFTN.VB",
+      "lba": 154920,
+      "size": 24672
+    },
+    {
+      "path": "PSX/SOUND/DOORGAT.HED",
+      "lba": 154933,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORGAT.VB",
+      "lba": 154935,
+      "size": 25088
+    },
+    {
+      "path": "PSX/SOUND/DOORLAB.HED",
+      "lba": 154948,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORLAB.VB",
+      "lba": 154950,
+      "size": 24864
+    },
+    {
+      "path": "PSX/SOUND/DOORLAD.HED",
+      "lba": 154963,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORLAD.VB",
+      "lba": 154965,
+      "size": 12944
+    },
+    {
+      "path": "PSX/SOUND/DOORMTL.HED",
+      "lba": 154972,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORMTL.VB",
+      "lba": 154974,
+      "size": 24320
+    },
+    {
+      "path": "PSX/SOUND/DOORNEW.HED",
+      "lba": 154986,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORNEW.VB",
+      "lba": 154988,
+      "size": 24944
+    },
+    {
+      "path": "PSX/SOUND/DOOROLD.HED",
+      "lba": 155001,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOOROLD.VB",
+      "lba": 155003,
+      "size": 25056
+    },
+    {
+      "path": "PSX/SOUND/DOORREB.HED",
+      "lba": 155016,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORREB.VB",
+      "lba": 155018,
+      "size": 25248
+    },
+    {
+      "path": "PSX/SOUND/DOORSMT.HED",
+      "lba": 155031,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORSMT.VB",
+      "lba": 155033,
+      "size": 14016
+    },
+    {
+      "path": "PSX/SOUND/DOORSTJ.HED",
+      "lba": 155040,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORSTJ.VB",
+      "lba": 155042,
+      "size": 16544
+    },
+    {
+      "path": "PSX/SOUND/DOORSTW.HED",
+      "lba": 155051,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORSTW.VB",
+      "lba": 155053,
+      "size": 15824
+    },
+    {
+      "path": "PSX/SOUND/DOORWOD.HED",
+      "lba": 155061,
+      "size": 3120
+    },
+    {
+      "path": "PSX/SOUND/DOORWOD.VB",
+      "lba": 155063,
+      "size": 21488
+    },
+    {
+      "path": "PSX/SOUND/ENDING.HED",
+      "lba": 155074,
+      "size": 3240
+    },
+    {
+      "path": "PSX/SOUND/ENDING.VB",
+      "lba": 155076,
+      "size": 358448
+    },
+    {
+      "path": "PSX/SOUND/EVIL.HED",
+      "lba": 155252,
+      "size": 3240
+    },
+    {
+      "path": "PSX/SOUND/EVIL.VB",
+      "lba": 155254,
+      "size": 78896
+    },
+    {
+      "path": "PSX/SOUND/SELECT.HED",
+      "lba": 155293,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/SELECT.VB",
+      "lba": 155295,
+      "size": 189040
+    },
+    {
+      "path": "PSX/SOUND/SEP00.HSB",
+      "lba": 155388,
+      "size": 243068
+    },
+    {
+      "path": "PSX/SOUND/SEP01.HSB",
+      "lba": 155507,
+      "size": 98484
+    },
+    {
+      "path": "PSX/SOUND/SEP02.HSB",
+      "lba": 155556,
+      "size": 250140
+    },
+    {
+      "path": "PSX/SOUND/SEP03.HSB",
+      "lba": 155679,
+      "size": 125300
+    },
+    {
+      "path": "PSX/SOUND/SEP04.HSB",
+      "lba": 155741,
+      "size": 58684
+    },
+    {
+      "path": "PSX/SOUND/SEP05.HSB",
+      "lba": 155770,
+      "size": 220772
+    },
+    {
+      "path": "PSX/SOUND/SEP06.HSB",
+      "lba": 155878,
+      "size": 225884
+    },
+    {
+      "path": "PSX/SOUND/SEP07.HSB",
+      "lba": 155989,
+      "size": 202684
+    },
+    {
+      "path": "PSX/SOUND/SEP08.HSB",
+      "lba": 156088,
+      "size": 235156
+    },
+    {
+      "path": "PSX/SOUND/SEP09.HSB",
+      "lba": 156203,
+      "size": 187380
+    },
+    {
+      "path": "PSX/SOUND/SEP0A.HSB",
+      "lba": 156295,
+      "size": 177264
+    },
+    {
+      "path": "PSX/SOUND/SEP0B.HSB",
+      "lba": 156382,
+      "size": 121800
+    },
+    {
+      "path": "PSX/SOUND/SEP0C.HSB",
+      "lba": 156442,
+      "size": 259808
+    },
+    {
+      "path": "PSX/SOUND/SEP0D.HSB",
+      "lba": 156569,
+      "size": 236708
+    },
+    {
+      "path": "PSX/SOUND/SEP0E.HSB",
+      "lba": 156685,
+      "size": 236592
+    },
+    {
+      "path": "PSX/SOUND/SEP0F.HSB",
+      "lba": 156801,
+      "size": 123292
+    },
+    {
+      "path": "PSX/SOUND/SEP10.HSB",
+      "lba": 156862,
+      "size": 185392
+    },
+    {
+      "path": "PSX/SOUND/SEP11.HSB",
+      "lba": 156953,
+      "size": 252472
+    },
+    {
+      "path": "PSX/SOUND/SEP12.HSB",
+      "lba": 157077,
+      "size": 259320
+    },
+    {
+      "path": "PSX/SOUND/SEP13.HSB",
+      "lba": 157204,
+      "size": 230460
+    },
+    {
+      "path": "PSX/SOUND/SEP14.HSB",
+      "lba": 157317,
+      "size": 260128
+    },
+    {
+      "path": "PSX/SOUND/SEP15.HSB",
+      "lba": 157445,
+      "size": 239472
+    },
+    {
+      "path": "PSX/SOUND/SEP16.HSB",
+      "lba": 157562,
+      "size": 153344
+    },
+    {
+      "path": "PSX/SOUND/SEP17.HSB",
+      "lba": 157637,
+      "size": 175488
+    },
+    {
+      "path": "PSX/SOUND/SEP18.HSB",
+      "lba": 157723,
+      "size": 211584
+    },
+    {
+      "path": "PSX/SOUND/SEP19.HSB",
+      "lba": 157827,
+      "size": 211372
+    },
+    {
+      "path": "PSX/SOUND/SEP1A.HSB",
+      "lba": 157931,
+      "size": 229368
+    },
+    {
+      "path": "PSX/SOUND/SEP1B.HSB",
+      "lba": 158043,
+      "size": 226480
+    },
+    {
+      "path": "PSX/SOUND/SEP1C.HSB",
+      "lba": 158154,
+      "size": 30224
+    },
+    {
+      "path": "PSX/SOUND/SEP1D.HSB",
+      "lba": 158169,
+      "size": 131000
+    },
+    {
+      "path": "PSX/SOUND/SEP1E.HSB",
+      "lba": 158233,
+      "size": 76472
+    },
+    {
+      "path": "PSX/SOUND/SEP1F.HSB",
+      "lba": 158271,
+      "size": 16060
+    },
+    {
+      "path": "PSX/SOUND/SEP20.HSB",
+      "lba": 158279,
+      "size": 257608
+    },
+    {
+      "path": "PSX/SOUND/SEP21.HSB",
+      "lba": 158405,
+      "size": 135360
+    },
+    {
+      "path": "PSX/SOUND/SEP22.HSB",
+      "lba": 158472,
+      "size": 202820
+    },
+    {
+      "path": "PSX/SOUND/SEP23.HSB",
+      "lba": 158572,
+      "size": 124072
+    },
+    {
+      "path": "PSX/SOUND/SEP24.HSB",
+      "lba": 158633,
+      "size": 249784
+    },
+    {
+      "path": "PSX/SOUND/SEP25.HSB",
+      "lba": 158755,
+      "size": 242412
+    },
+    {
+      "path": "PSX/SOUND/SEP26.HSB",
+      "lba": 158874,
+      "size": 174892
+    },
+    {
+      "path": "PSX/SOUND/SEP27.HSB",
+      "lba": 158960,
+      "size": 139464
+    },
+    {
+      "path": "PSX/SOUND/SEP28.HSB",
+      "lba": 159029,
+      "size": 259592
+    },
+    {
+      "path": "PSX/SOUND/SEP29.HSB",
+      "lba": 159156,
+      "size": 251676
+    },
+    {
+      "path": "PSX/SOUND/SEP2A.HSB",
+      "lba": 159279,
+      "size": 263228
+    },
+    {
+      "path": "PSX/SOUND/SEP2B.HSB",
+      "lba": 159408,
+      "size": 249880
+    },
+    {
+      "path": "PSX/SOUND/SEP2C.HSB",
+      "lba": 159531,
+      "size": 220484
+    },
+    {
+      "path": "PSX/SOUND/SEP2D.HSB",
+      "lba": 159639,
+      "size": 178840
+    },
+    {
+      "path": "PSX/SOUND/SEP2E.HSB",
+      "lba": 159727,
+      "size": 152128
+    },
+    {
+      "path": "PSX/SOUND/SEP2F.HSB",
+      "lba": 159802,
+      "size": 193472
+    },
+    {
+      "path": "PSX/SOUND/SEP30.HSB",
+      "lba": 159897,
+      "size": 262828
+    },
+    {
+      "path": "PSX/SOUND/SEP31.HSB",
+      "lba": 160026,
+      "size": 41660
+    },
+    {
+      "path": "PSX/SOUND/SEP32.HSB",
+      "lba": 160047,
+      "size": 161332
+    },
+    {
+      "path": "PSX/SOUND/SEP33.HSB",
+      "lba": 160126,
+      "size": 265976
+    },
+    {
+      "path": "PSX/SOUND/SEP34.HSB",
+      "lba": 160256,
+      "size": 254488
+    },
+    {
+      "path": "PSX/SOUND/SEP35.HSB",
+      "lba": 160381,
+      "size": 255408
+    },
+    {
+      "path": "PSX/SOUND/SEP36.HSB",
+      "lba": 160506,
+      "size": 196276
+    },
+    {
+      "path": "PSX/SOUND/SEP37.HSB",
+      "lba": 160602,
+      "size": 197660
+    },
+    {
+      "path": "PSX/SOUND/SEP38.HSB",
+      "lba": 160699,
+      "size": 140168
+    },
+    {
+      "path": "PSX/SOUND/WP001.HED",
+      "lba": 160768,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP001.VB",
+      "lba": 160770,
+      "size": 29776
+    },
+    {
+      "path": "PSX/SOUND/WP002.HED",
+      "lba": 160785,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP002.VB",
+      "lba": 160787,
+      "size": 29936
+    },
+    {
+      "path": "PSX/SOUND/WP003.HED",
+      "lba": 160802,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP003.VB",
+      "lba": 160804,
+      "size": 29856
+    },
+    {
+      "path": "PSX/SOUND/WP004.HED",
+      "lba": 160819,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP004.VB",
+      "lba": 160821,
+      "size": 29344
+    },
+    {
+      "path": "PSX/SOUND/WP005.HED",
+      "lba": 160836,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP005.VB",
+      "lba": 160838,
+      "size": 29344
+    },
+    {
+      "path": "PSX/SOUND/WP006.HED",
+      "lba": 160853,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP006.VB",
+      "lba": 160855,
+      "size": 29200
+    },
+    {
+      "path": "PSX/SOUND/WP007.HED",
+      "lba": 160870,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP007.VB",
+      "lba": 160872,
+      "size": 29568
+    },
+    {
+      "path": "PSX/SOUND/WP008.HED",
+      "lba": 160887,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP008.VB",
+      "lba": 160889,
+      "size": 28240
+    },
+    {
+      "path": "PSX/SOUND/WP009.HED",
+      "lba": 160903,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP009.VB",
+      "lba": 160905,
+      "size": 29680
+    },
+    {
+      "path": "PSX/SOUND/WP00A.HED",
+      "lba": 160920,
+      "size": 3176
+    },
+    {
+      "path": "PSX/SOUND/WP00A.VB",
+      "lba": 160922,
+      "size": 29728
+    },
+    {
+      "path": "PSX/STAGE1/ROOM100.BSS",
+      "lba": 160940,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1000.RDT",
+      "lba": 161036,
+      "size": 339628
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1001.RDT",
+      "lba": 161202,
+      "size": 333104
+    },
+    {
+      "path": "PSX/STAGE1/ROOM101.BSS",
+      "lba": 161365,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1010.RDT",
+      "lba": 161461,
+      "size": 297300
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1011.RDT",
+      "lba": 161607,
+      "size": 297300
+    },
+    {
+      "path": "PSX/STAGE1/ROOM102.BSS",
+      "lba": 161753,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1020.RDT",
+      "lba": 161817,
+      "size": 231632
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1021.RDT",
+      "lba": 161931,
+      "size": 231632
+    },
+    {
+      "path": "PSX/STAGE1/ROOM103.BSS",
+      "lba": 162045,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1030.RDT",
+      "lba": 162157,
+      "size": 255036
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1031.RDT",
+      "lba": 162282,
+      "size": 254988
+    },
+    {
+      "path": "PSX/STAGE1/ROOM104.BSS",
+      "lba": 162407,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1040.RDT",
+      "lba": 162535,
+      "size": 264444
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1041.RDT",
+      "lba": 162665,
+      "size": 300372
+    },
+    {
+      "path": "PSX/STAGE1/ROOM105.BSS",
+      "lba": 162812,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1050.RDT",
+      "lba": 162924,
+      "size": 560596
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1051.RDT",
+      "lba": 163198,
+      "size": 604720
+    },
+    {
+      "path": "PSX/STAGE1/ROOM106.BSS",
+      "lba": 163494,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1060.RDT",
+      "lba": 163622,
+      "size": 456096
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1061.RDT",
+      "lba": 163845,
+      "size": 461616
+    },
+    {
+      "path": "PSX/STAGE1/ROOM107.BSS",
+      "lba": 164071,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1070.RDT",
+      "lba": 164199,
+      "size": 559176
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1071.RDT",
+      "lba": 164473,
+      "size": 559176
+    },
+    {
+      "path": "PSX/STAGE1/ROOM108.BSS",
+      "lba": 164747,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1080.RDT",
+      "lba": 164811,
+      "size": 430240
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1081.RDT",
+      "lba": 165022,
+      "size": 430240
+    },
+    {
+      "path": "PSX/STAGE1/ROOM109.BSS",
+      "lba": 165233,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1090.RDT",
+      "lba": 165361,
+      "size": 371588
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1091.RDT",
+      "lba": 165543,
+      "size": 371112
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10A.BSS",
+      "lba": 165725,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10A0.RDT",
+      "lba": 165805,
+      "size": 210268
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10A1.RDT",
+      "lba": 165908,
+      "size": 210268
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10B.BSS",
+      "lba": 166011,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10B0.RDT",
+      "lba": 166075,
+      "size": 277092
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10B1.RDT",
+      "lba": 166211,
+      "size": 276012
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10C.BSS",
+      "lba": 166346,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10C0.RDT",
+      "lba": 166442,
+      "size": 616512
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10C1.RDT",
+      "lba": 166744,
+      "size": 617480
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10D.BSS",
+      "lba": 167046,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10D0.RDT",
+      "lba": 167078,
+      "size": 301140
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10D1.RDT",
+      "lba": 167226,
+      "size": 301140
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10E.BSS",
+      "lba": 167374,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10E0.RDT",
+      "lba": 167438,
+      "size": 512320
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10E1.RDT",
+      "lba": 167689,
+      "size": 511240
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10F.BSS",
+      "lba": 167939,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10F0.RDT",
+      "lba": 168067,
+      "size": 590960
+    },
+    {
+      "path": "PSX/STAGE1/ROOM10F1.RDT",
+      "lba": 168356,
+      "size": 588172
+    },
+    {
+      "path": "PSX/STAGE1/ROOM110.BSS",
+      "lba": 168644,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1100.RDT",
+      "lba": 168724,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1101.RDT",
+      "lba": 168725,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE1/ROOM111.BSS",
+      "lba": 168726,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1110.RDT",
+      "lba": 168806,
+      "size": 407084
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1111.RDT",
+      "lba": 169005,
+      "size": 407084
+    },
+    {
+      "path": "PSX/STAGE1/ROOM112.BSS",
+      "lba": 169204,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1120.RDT",
+      "lba": 169236,
+      "size": 299924
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1121.RDT",
+      "lba": 169383,
+      "size": 299924
+    },
+    {
+      "path": "PSX/STAGE1/ROOM113.BSS",
+      "lba": 169530,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1130.RDT",
+      "lba": 169594,
+      "size": 356296
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1131.RDT",
+      "lba": 169768,
+      "size": 356296
+    },
+    {
+      "path": "PSX/STAGE1/ROOM114.BSS",
+      "lba": 169942,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1140.RDT",
+      "lba": 170006,
+      "size": 294428
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1141.RDT",
+      "lba": 170150,
+      "size": 294428
+    },
+    {
+      "path": "PSX/STAGE1/ROOM115.BSS",
+      "lba": 170294,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1150.RDT",
+      "lba": 170374,
+      "size": 175524
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1151.RDT",
+      "lba": 170460,
+      "size": 212804
+    },
+    {
+      "path": "PSX/STAGE1/ROOM116.BSS",
+      "lba": 170564,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1160.RDT",
+      "lba": 170612,
+      "size": 294604
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1161.RDT",
+      "lba": 170756,
+      "size": 294604
+    },
+    {
+      "path": "PSX/STAGE1/ROOM117.BSS",
+      "lba": 170900,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1170.RDT",
+      "lba": 171028,
+      "size": 355264
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1171.RDT",
+      "lba": 171202,
+      "size": 355264
+    },
+    {
+      "path": "PSX/STAGE1/ROOM118.BSS",
+      "lba": 171376,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1180.RDT",
+      "lba": 171408,
+      "size": 149860
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1181.RDT",
+      "lba": 171482,
+      "size": 149860
+    },
+    {
+      "path": "PSX/STAGE1/ROOM119.BSS",
+      "lba": 171556,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1190.RDT",
+      "lba": 171620,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE1/ROOM1191.RDT",
+      "lba": 171621,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11A.BSS",
+      "lba": 171622,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11A0.RDT",
+      "lba": 171702,
+      "size": 389656
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11A1.RDT",
+      "lba": 171893,
+      "size": 389656
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11B.BSS",
+      "lba": 172084,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11B0.RDT",
+      "lba": 172132,
+      "size": 231420
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11B1.RDT",
+      "lba": 172245,
+      "size": 196200
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11C.BSS",
+      "lba": 172341,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11C0.RDT",
+      "lba": 172389,
+      "size": 416604
+    },
+    {
+      "path": "PSX/STAGE1/ROOM11C1.RDT",
+      "lba": 172593,
+      "size": 416604
+    },
+    {
+      "path": "PSX/STAGE2/ROOM200.BSS",
+      "lba": 172800,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2000.RDT",
+      "lba": 172880,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2001.RDT",
+      "lba": 172881,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM201.BSS",
+      "lba": 172882,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2010.RDT",
+      "lba": 173010,
+      "size": 442768
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2011.RDT",
+      "lba": 173227,
+      "size": 442768
+    },
+    {
+      "path": "PSX/STAGE2/ROOM202.BSS",
+      "lba": 173444,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2020.RDT",
+      "lba": 173540,
+      "size": 527108
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2021.RDT",
+      "lba": 173798,
+      "size": 527108
+    },
+    {
+      "path": "PSX/STAGE2/ROOM203.BSS",
+      "lba": 174056,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2030.RDT",
+      "lba": 174136,
+      "size": 302808
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2031.RDT",
+      "lba": 174284,
+      "size": 338688
+    },
+    {
+      "path": "PSX/STAGE2/ROOM204.BSS",
+      "lba": 174450,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2040.RDT",
+      "lba": 174530,
+      "size": 180568
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2041.RDT",
+      "lba": 174619,
+      "size": 180572
+    },
+    {
+      "path": "PSX/STAGE2/ROOM205.BSS",
+      "lba": 174708,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2050.RDT",
+      "lba": 174772,
+      "size": 251712
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2051.RDT",
+      "lba": 174895,
+      "size": 251712
+    },
+    {
+      "path": "PSX/STAGE2/ROOM206.BSS",
+      "lba": 175018,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2060.RDT",
+      "lba": 175146,
+      "size": 339324
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2061.RDT",
+      "lba": 175312,
+      "size": 339324
+    },
+    {
+      "path": "PSX/STAGE2/ROOM207.BSS",
+      "lba": 175478,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2070.RDT",
+      "lba": 175590,
+      "size": 317872
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2071.RDT",
+      "lba": 175746,
+      "size": 352012
+    },
+    {
+      "path": "PSX/STAGE2/ROOM208.BSS",
+      "lba": 175918,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2080.RDT",
+      "lba": 175950,
+      "size": 222388
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2081.RDT",
+      "lba": 176059,
+      "size": 221308
+    },
+    {
+      "path": "PSX/STAGE2/ROOM209.BSS",
+      "lba": 176168,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2090.RDT",
+      "lba": 176216,
+      "size": 180728
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2091.RDT",
+      "lba": 176305,
+      "size": 214048
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20A.BSS",
+      "lba": 176410,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20A0.RDT",
+      "lba": 176506,
+      "size": 467288
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20A1.RDT",
+      "lba": 176735,
+      "size": 467680
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20B.BSS",
+      "lba": 176964,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20B0.RDT",
+      "lba": 177012,
+      "size": 270016
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20B1.RDT",
+      "lba": 177144,
+      "size": 270016
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20C.BSS",
+      "lba": 177276,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20C0.RDT",
+      "lba": 177404,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20C1.RDT",
+      "lba": 177405,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20D.BSS",
+      "lba": 177406,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20D0.RDT",
+      "lba": 177502,
+      "size": 347272
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20D1.RDT",
+      "lba": 177672,
+      "size": 344780
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20E.BSS",
+      "lba": 177841,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20E0.RDT",
+      "lba": 177921,
+      "size": 280728
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20E1.RDT",
+      "lba": 178059,
+      "size": 277860
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20F.BSS",
+      "lba": 178195,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20F0.RDT",
+      "lba": 178291,
+      "size": 471636
+    },
+    {
+      "path": "PSX/STAGE2/ROOM20F1.RDT",
+      "lba": 178522,
+      "size": 471660
+    },
+    {
+      "path": "PSX/STAGE2/ROOM210.BSS",
+      "lba": 178753,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2100.RDT",
+      "lba": 178865,
+      "size": 427568
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2101.RDT",
+      "lba": 179074,
+      "size": 427568
+    },
+    {
+      "path": "PSX/STAGE2/ROOM211.BSS",
+      "lba": 179283,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2110.RDT",
+      "lba": 179331,
+      "size": 129280
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2111.RDT",
+      "lba": 179395,
+      "size": 129280
+    },
+    {
+      "path": "PSX/STAGE2/ROOM212.BSS",
+      "lba": 179459,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2120.RDT",
+      "lba": 179539,
+      "size": 412256
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2121.RDT",
+      "lba": 179741,
+      "size": 420432
+    },
+    {
+      "path": "PSX/STAGE2/ROOM213.BSS",
+      "lba": 179947,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2130.RDT",
+      "lba": 180059,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2131.RDT",
+      "lba": 180060,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM214.BSS",
+      "lba": 180061,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2140.RDT",
+      "lba": 180141,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2141.RDT",
+      "lba": 180142,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM215.BSS",
+      "lba": 180143,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2150.RDT",
+      "lba": 180271,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2151.RDT",
+      "lba": 180272,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM216.BSS",
+      "lba": 180273,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2160.RDT",
+      "lba": 180385,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2161.RDT",
+      "lba": 180386,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM217.BSS",
+      "lba": 180387,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2170.RDT",
+      "lba": 180515,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2171.RDT",
+      "lba": 180516,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM218.BSS",
+      "lba": 180517,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2180.RDT",
+      "lba": 180565,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2181.RDT",
+      "lba": 180566,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM219.BSS",
+      "lba": 180567,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2190.RDT",
+      "lba": 180615,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM2191.RDT",
+      "lba": 180616,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21A.BSS",
+      "lba": 180617,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21A0.RDT",
+      "lba": 180713,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21A1.RDT",
+      "lba": 180714,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21B.BSS",
+      "lba": 180715,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21B0.RDT",
+      "lba": 180811,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21B1.RDT",
+      "lba": 180812,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21C.BSS",
+      "lba": 180813,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21C0.RDT",
+      "lba": 180893,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE2/ROOM21C1.RDT",
+      "lba": 180894,
+      "size": 4
+    },
+    {
+      "path": "PSX/STAGE3/ROOM300.BSS",
+      "lba": 180897,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3000.RDT",
+      "lba": 181009,
+      "size": 468256
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3001.RDT",
+      "lba": 181238,
+      "size": 468260
+    },
+    {
+      "path": "PSX/STAGE3/ROOM301.BSS",
+      "lba": 181467,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3010.RDT",
+      "lba": 181595,
+      "size": 629184
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3011.RDT",
+      "lba": 181903,
+      "size": 628104
+    },
+    {
+      "path": "PSX/STAGE3/ROOM302.BSS",
+      "lba": 182210,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3020.RDT",
+      "lba": 182338,
+      "size": 390444
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3021.RDT",
+      "lba": 182529,
+      "size": 390444
+    },
+    {
+      "path": "PSX/STAGE3/ROOM303.BSS",
+      "lba": 182720,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3030.RDT",
+      "lba": 182848,
+      "size": 416732
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3031.RDT",
+      "lba": 183052,
+      "size": 416732
+    },
+    {
+      "path": "PSX/STAGE3/ROOM304.BSS",
+      "lba": 183256,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3040.RDT",
+      "lba": 183352,
+      "size": 289396
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3041.RDT",
+      "lba": 183494,
+      "size": 289396
+    },
+    {
+      "path": "PSX/STAGE3/ROOM305.BSS",
+      "lba": 183636,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3050.RDT",
+      "lba": 183764,
+      "size": 544160
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3051.RDT",
+      "lba": 184030,
+      "size": 544160
+    },
+    {
+      "path": "PSX/STAGE3/ROOM306.BSS",
+      "lba": 184296,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3060.RDT",
+      "lba": 184376,
+      "size": 389820
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3061.RDT",
+      "lba": 184567,
+      "size": 388740
+    },
+    {
+      "path": "PSX/STAGE3/ROOM307.BSS",
+      "lba": 184757,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3070.RDT",
+      "lba": 184869,
+      "size": 429932
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3071.RDT",
+      "lba": 185079,
+      "size": 465260
+    },
+    {
+      "path": "PSX/STAGE3/ROOM308.BSS",
+      "lba": 185307,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3080.RDT",
+      "lba": 185403,
+      "size": 349432
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3081.RDT",
+      "lba": 185574,
+      "size": 313536
+    },
+    {
+      "path": "PSX/STAGE3/ROOM309.BSS",
+      "lba": 185728,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3090.RDT",
+      "lba": 185856,
+      "size": 383388
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3091.RDT",
+      "lba": 186044,
+      "size": 421920
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30A.BSS",
+      "lba": 186251,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30A0.RDT",
+      "lba": 186379,
+      "size": 360400
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30A1.RDT",
+      "lba": 186555,
+      "size": 359296
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30B.BSS",
+      "lba": 186731,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30B0.RDT",
+      "lba": 186859,
+      "size": 555092
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30B1.RDT",
+      "lba": 187131,
+      "size": 554708
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30C.BSS",
+      "lba": 187402,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30C0.RDT",
+      "lba": 187466,
+      "size": 161056
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30C1.RDT",
+      "lba": 187545,
+      "size": 161056
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30D.BSS",
+      "lba": 187624,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30D0.RDT",
+      "lba": 187704,
+      "size": 192432
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30D1.RDT",
+      "lba": 187798,
+      "size": 117412
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30E.BSS",
+      "lba": 187856,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30E0.RDT",
+      "lba": 187920,
+      "size": 294068
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30E1.RDT",
+      "lba": 188064,
+      "size": 294068
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30F.BSS",
+      "lba": 188208,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30F0.RDT",
+      "lba": 188336,
+      "size": 604952
+    },
+    {
+      "path": "PSX/STAGE3/ROOM30F1.RDT",
+      "lba": 188632,
+      "size": 604952
+    },
+    {
+      "path": "PSX/STAGE3/ROOM310.BSS",
+      "lba": 188928,
+      "size": 32768
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3100.RDT",
+      "lba": 188944,
+      "size": 75116
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3101.RDT",
+      "lba": 188981,
+      "size": 75116
+    },
+    {
+      "path": "PSX/STAGE3/ROOM311.BSS",
+      "lba": 189018,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3110.RDT",
+      "lba": 189066,
+      "size": 4804
+    },
+    {
+      "path": "PSX/STAGE3/ROOM3111.RDT",
+      "lba": 189069,
+      "size": 4804
+    },
+    {
+      "path": "PSX/STAGE4/ROOM400.BSS",
+      "lba": 189074,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4000.RDT",
+      "lba": 189170,
+      "size": 321568
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4001.RDT",
+      "lba": 189328,
+      "size": 321548
+    },
+    {
+      "path": "PSX/STAGE4/ROOM401.BSS",
+      "lba": 189486,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4010.RDT",
+      "lba": 189614,
+      "size": 403632
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4011.RDT",
+      "lba": 189812,
+      "size": 403572
+    },
+    {
+      "path": "PSX/STAGE4/ROOM402.BSS",
+      "lba": 190010,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4020.RDT",
+      "lba": 190042,
+      "size": 290644
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4021.RDT",
+      "lba": 190184,
+      "size": 290644
+    },
+    {
+      "path": "PSX/STAGE4/ROOM403.BSS",
+      "lba": 190326,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4030.RDT",
+      "lba": 190374,
+      "size": 339152
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4031.RDT",
+      "lba": 190540,
+      "size": 307072
+    },
+    {
+      "path": "PSX/STAGE4/ROOM404.BSS",
+      "lba": 190690,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4040.RDT",
+      "lba": 190818,
+      "size": 502408
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4041.RDT",
+      "lba": 191064,
+      "size": 502408
+    },
+    {
+      "path": "PSX/STAGE4/ROOM405.BSS",
+      "lba": 191310,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4050.RDT",
+      "lba": 191438,
+      "size": 354252
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4051.RDT",
+      "lba": 191611,
+      "size": 342920
+    },
+    {
+      "path": "PSX/STAGE4/ROOM406.BSS",
+      "lba": 191779,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4060.RDT",
+      "lba": 191907,
+      "size": 404788
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4061.RDT",
+      "lba": 192105,
+      "size": 392832
+    },
+    {
+      "path": "PSX/STAGE4/ROOM407.BSS",
+      "lba": 192297,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4070.RDT",
+      "lba": 192329,
+      "size": 318348
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4071.RDT",
+      "lba": 192485,
+      "size": 318348
+    },
+    {
+      "path": "PSX/STAGE4/ROOM408.BSS",
+      "lba": 192641,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4080.RDT",
+      "lba": 192769,
+      "size": 424368
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4081.RDT",
+      "lba": 192977,
+      "size": 370160
+    },
+    {
+      "path": "PSX/STAGE4/ROOM409.BSS",
+      "lba": 193158,
+      "size": 98304
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4090.RDT",
+      "lba": 193206,
+      "size": 214204
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4091.RDT",
+      "lba": 193311,
+      "size": 157520
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40A.BSS",
+      "lba": 193388,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40A0.RDT",
+      "lba": 193500,
+      "size": 537268
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40A1.RDT",
+      "lba": 193763,
+      "size": 537268
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40B.BSS",
+      "lba": 194026,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40B0.RDT",
+      "lba": 194058,
+      "size": 303932
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40B1.RDT",
+      "lba": 194207,
+      "size": 271852
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40C.BSS",
+      "lba": 194340,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40C0.RDT",
+      "lba": 194468,
+      "size": 292804
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40C1.RDT",
+      "lba": 194611,
+      "size": 288504
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40D.BSS",
+      "lba": 194752,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40D0.RDT",
+      "lba": 194880,
+      "size": 522448
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40D1.RDT",
+      "lba": 195136,
+      "size": 522448
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40E.BSS",
+      "lba": 195392,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40E0.RDT",
+      "lba": 195488,
+      "size": 443300
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40E1.RDT",
+      "lba": 195705,
+      "size": 443664
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40F.BSS",
+      "lba": 195922,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40F0.RDT",
+      "lba": 196002,
+      "size": 455520
+    },
+    {
+      "path": "PSX/STAGE4/ROOM40F1.RDT",
+      "lba": 196225,
+      "size": 455332
+    },
+    {
+      "path": "PSX/STAGE4/ROOM410.BSS",
+      "lba": 196448,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4100.RDT",
+      "lba": 196512,
+      "size": 207448
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4101.RDT",
+      "lba": 196614,
+      "size": 207448
+    },
+    {
+      "path": "PSX/STAGE4/ROOM411.BSS",
+      "lba": 196716,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4110.RDT",
+      "lba": 196812,
+      "size": 289640
+    },
+    {
+      "path": "PSX/STAGE4/ROOM4111.RDT",
+      "lba": 196954,
+      "size": 288560
+    },
+    {
+      "path": "PSX/STAGE5/ROOM500.BSS",
+      "lba": 197098,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5000.RDT",
+      "lba": 197210,
+      "size": 138844
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5001.RDT",
+      "lba": 197278,
+      "size": 138892
+    },
+    {
+      "path": "PSX/STAGE5/ROOM501.BSS",
+      "lba": 197346,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5010.RDT",
+      "lba": 197474,
+      "size": 296332
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5011.RDT",
+      "lba": 197619,
+      "size": 295200
+    },
+    {
+      "path": "PSX/STAGE5/ROOM502.BSS",
+      "lba": 197764,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5020.RDT",
+      "lba": 197828,
+      "size": 177936
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5021.RDT",
+      "lba": 197915,
+      "size": 228304
+    },
+    {
+      "path": "PSX/STAGE5/ROOM503.BSS",
+      "lba": 198027,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5030.RDT",
+      "lba": 198123,
+      "size": 337248
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5031.RDT",
+      "lba": 198288,
+      "size": 337248
+    },
+    {
+      "path": "PSX/STAGE5/ROOM504.BSS",
+      "lba": 198453,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5040.RDT",
+      "lba": 198565,
+      "size": 545432
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5041.RDT",
+      "lba": 198832,
+      "size": 545432
+    },
+    {
+      "path": "PSX/STAGE5/ROOM505.BSS",
+      "lba": 199099,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5050.RDT",
+      "lba": 199227,
+      "size": 444904
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5051.RDT",
+      "lba": 199445,
+      "size": 444812
+    },
+    {
+      "path": "PSX/STAGE5/ROOM506.BSS",
+      "lba": 199663,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5060.RDT",
+      "lba": 199759,
+      "size": 403264
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5061.RDT",
+      "lba": 199956,
+      "size": 403264
+    },
+    {
+      "path": "PSX/STAGE5/ROOM507.BSS",
+      "lba": 200153,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5070.RDT",
+      "lba": 200281,
+      "size": 476708
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5071.RDT",
+      "lba": 200514,
+      "size": 476696
+    },
+    {
+      "path": "PSX/STAGE5/ROOM508.BSS",
+      "lba": 200747,
+      "size": 163840
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5080.RDT",
+      "lba": 200827,
+      "size": 93388
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5081.RDT",
+      "lba": 200873,
+      "size": 93364
+    },
+    {
+      "path": "PSX/STAGE5/ROOM509.BSS",
+      "lba": 200919,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5090.RDT",
+      "lba": 201015,
+      "size": 351588
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5091.RDT",
+      "lba": 201187,
+      "size": 351612
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50A.BSS",
+      "lba": 201359,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50A0.RDT",
+      "lba": 201487,
+      "size": 387644
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50A1.RDT",
+      "lba": 201677,
+      "size": 387644
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50B.BSS",
+      "lba": 201867,
+      "size": 131072
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50B0.RDT",
+      "lba": 201931,
+      "size": 197020
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50B1.RDT",
+      "lba": 202028,
+      "size": 198028
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50C.BSS",
+      "lba": 202125,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50C0.RDT",
+      "lba": 202253,
+      "size": 271964
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50C1.RDT",
+      "lba": 202386,
+      "size": 270368
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50D.BSS",
+      "lba": 202519,
+      "size": 32768
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50D0.RDT",
+      "lba": 202535,
+      "size": 156392
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50D1.RDT",
+      "lba": 202612,
+      "size": 156392
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50E.BSS",
+      "lba": 202689,
+      "size": 65536
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50E0.RDT",
+      "lba": 202721,
+      "size": 304508
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50E1.RDT",
+      "lba": 202870,
+      "size": 304148
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50F.BSS",
+      "lba": 203019,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50F0.RDT",
+      "lba": 203147,
+      "size": 387284
+    },
+    {
+      "path": "PSX/STAGE5/ROOM50F1.RDT",
+      "lba": 203337,
+      "size": 386204
+    },
+    {
+      "path": "PSX/STAGE5/ROOM510.BSS",
+      "lba": 203526,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5100.RDT",
+      "lba": 203654,
+      "size": 345584
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5101.RDT",
+      "lba": 203823,
+      "size": 345560
+    },
+    {
+      "path": "PSX/STAGE5/ROOM511.BSS",
+      "lba": 203992,
+      "size": 196608
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5110.RDT",
+      "lba": 204088,
+      "size": 333616
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5111.RDT",
+      "lba": 204251,
+      "size": 333640
+    },
+    {
+      "path": "PSX/STAGE5/ROOM512.BSS",
+      "lba": 204414,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5120.RDT",
+      "lba": 204526,
+      "size": 116692
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5121.RDT",
+      "lba": 204583,
+      "size": 104028
+    },
+    {
+      "path": "PSX/STAGE5/ROOM513.BSS",
+      "lba": 204634,
+      "size": 262144
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5130.RDT",
+      "lba": 204762,
+      "size": 478372
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5131.RDT",
+      "lba": 204996,
+      "size": 465476
+    },
+    {
+      "path": "PSX/STAGE5/ROOM514.BSS",
+      "lba": 205224,
+      "size": 229376
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5140.RDT",
+      "lba": 205336,
+      "size": 247400
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5141.RDT",
+      "lba": 205457,
+      "size": 248256
+    },
+    {
+      "path": "PSX/STAGE5/ROOM515.BSS",
+      "lba": 205579,
+      "size": 32768
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5150.RDT",
+      "lba": 205595,
+      "size": 171056
+    },
+    {
+      "path": "PSX/STAGE5/ROOM5151.RDT",
+      "lba": 205679,
+      "size": 171076
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6000.RDT",
+      "lba": 205765,
+      "size": 288888
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6001.RDT",
+      "lba": 205907,
+      "size": 286460
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6010.RDT",
+      "lba": 206047,
+      "size": 382740
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6011.RDT",
+      "lba": 206234,
+      "size": 335884
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6020.RDT",
+      "lba": 206399,
+      "size": 268884
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6021.RDT",
+      "lba": 206531,
+      "size": 231776
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6030.RDT",
+      "lba": 206645,
+      "size": 276540
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6031.RDT",
+      "lba": 206781,
+      "size": 239340
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6040.RDT",
+      "lba": 206898,
+      "size": 245824
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6041.RDT",
+      "lba": 207019,
+      "size": 281868
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6050.RDT",
+      "lba": 207157,
+      "size": 486852
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6051.RDT",
+      "lba": 207395,
+      "size": 529680
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6060.RDT",
+      "lba": 207654,
+      "size": 411456
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6061.RDT",
+      "lba": 207855,
+      "size": 416976
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6070.RDT",
+      "lba": 208059,
+      "size": 483320
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6071.RDT",
+      "lba": 208295,
+      "size": 483320
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6080.RDT",
+      "lba": 208531,
+      "size": 358708
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6081.RDT",
+      "lba": 208707,
+      "size": 358708
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6090.RDT",
+      "lba": 208883,
+      "size": 356660
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6091.RDT",
+      "lba": 209058,
+      "size": 356048
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60A0.RDT",
+      "lba": 209232,
+      "size": 230676
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60A1.RDT",
+      "lba": 209345,
+      "size": 229012
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60B0.RDT",
+      "lba": 209457,
+      "size": 304220
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60B1.RDT",
+      "lba": 209606,
+      "size": 302640
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60C0.RDT",
+      "lba": 209754,
+      "size": 466628
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60C1.RDT",
+      "lba": 209982,
+      "size": 466624
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60D0.RDT",
+      "lba": 210210,
+      "size": 301140
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60D1.RDT",
+      "lba": 210358,
+      "size": 301140
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60E0.RDT",
+      "lba": 210506,
+      "size": 512284
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60E1.RDT",
+      "lba": 210757,
+      "size": 511204
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60F0.RDT",
+      "lba": 211007,
+      "size": 482448
+    },
+    {
+      "path": "PSX/STAGE6/ROOM60F1.RDT",
+      "lba": 211243,
+      "size": 479660
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6100.RDT",
+      "lba": 211478,
+      "size": 149844
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6101.RDT",
+      "lba": 211552,
+      "size": 183984
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6110.RDT",
+      "lba": 211642,
+      "size": 407084
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6111.RDT",
+      "lba": 211841,
+      "size": 407084
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6120.RDT",
+      "lba": 212040,
+      "size": 290468
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6121.RDT",
+      "lba": 212182,
+      "size": 290468
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6130.RDT",
+      "lba": 212324,
+      "size": 356296
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6131.RDT",
+      "lba": 212498,
+      "size": 356296
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6140.RDT",
+      "lba": 212672,
+      "size": 311848
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6141.RDT",
+      "lba": 212825,
+      "size": 311848
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6150.RDT",
+      "lba": 212978,
+      "size": 175524
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6151.RDT",
+      "lba": 213064,
+      "size": 212804
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6160.RDT",
+      "lba": 213168,
+      "size": 294604
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6161.RDT",
+      "lba": 213312,
+      "size": 294604
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6170.RDT",
+      "lba": 213456,
+      "size": 355744
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6171.RDT",
+      "lba": 213630,
+      "size": 318100
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6180.RDT",
+      "lba": 213786,
+      "size": 246856
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6181.RDT",
+      "lba": 213907,
+      "size": 214744
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6190.RDT",
+      "lba": 214012,
+      "size": 268076
+    },
+    {
+      "path": "PSX/STAGE6/ROOM6191.RDT",
+      "lba": 214143,
+      "size": 230968
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61A0.RDT",
+      "lba": 214256,
+      "size": 333600
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61A1.RDT",
+      "lba": 214419,
+      "size": 332708
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61B0.RDT",
+      "lba": 214582,
+      "size": 231420
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61B1.RDT",
+      "lba": 214695,
+      "size": 196200
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61C0.RDT",
+      "lba": 214791,
+      "size": 416604
+    },
+    {
+      "path": "PSX/STAGE6/ROOM61C1.RDT",
+      "lba": 214995,
+      "size": 416604
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7000.RDT",
+      "lba": 215201,
+      "size": 56292
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7001.RDT",
+      "lba": 215229,
+      "size": 56292
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7010.RDT",
+      "lba": 215257,
+      "size": 450072
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7011.RDT",
+      "lba": 215477,
+      "size": 414768
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7020.RDT",
+      "lba": 215680,
+      "size": 520564
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7021.RDT",
+      "lba": 215935,
+      "size": 520564
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7030.RDT",
+      "lba": 216190,
+      "size": 229944
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7031.RDT",
+      "lba": 216303,
+      "size": 265824
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7040.RDT",
+      "lba": 216433,
+      "size": 163480
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7041.RDT",
+      "lba": 216513,
+      "size": 163388
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7050.RDT",
+      "lba": 216593,
+      "size": 251712
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7051.RDT",
+      "lba": 216716,
+      "size": 251712
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7060.RDT",
+      "lba": 216839,
+      "size": 504820
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7061.RDT",
+      "lba": 217086,
+      "size": 456192
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7070.RDT",
+      "lba": 217309,
+      "size": 289024
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7071.RDT",
+      "lba": 217451,
+      "size": 323164
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7080.RDT",
+      "lba": 217609,
+      "size": 218356
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7081.RDT",
+      "lba": 217716,
+      "size": 217276
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7090.RDT",
+      "lba": 217823,
+      "size": 180728
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7091.RDT",
+      "lba": 217912,
+      "size": 180728
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70A0.RDT",
+      "lba": 218001,
+      "size": 467288
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70A1.RDT",
+      "lba": 218230,
+      "size": 467680
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70B0.RDT",
+      "lba": 218459,
+      "size": 263472
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70B1.RDT",
+      "lba": 218588,
+      "size": 263472
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70C0.RDT",
+      "lba": 218717,
+      "size": 359960
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70C1.RDT",
+      "lba": 218893,
+      "size": 363864
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70D0.RDT",
+      "lba": 219071,
+      "size": 408616
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70D1.RDT",
+      "lba": 219271,
+      "size": 407540
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70E0.RDT",
+      "lba": 219470,
+      "size": 277980
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70E1.RDT",
+      "lba": 219606,
+      "size": 276900
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70F0.RDT",
+      "lba": 219742,
+      "size": 464580
+    },
+    {
+      "path": "PSX/STAGE7/ROOM70F1.RDT",
+      "lba": 219969,
+      "size": 464604
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7100.RDT",
+      "lba": 220196,
+      "size": 311760
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7101.RDT",
+      "lba": 220349,
+      "size": 311760
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7110.RDT",
+      "lba": 220502,
+      "size": 129280
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7111.RDT",
+      "lba": 220566,
+      "size": 129280
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7120.RDT",
+      "lba": 220630,
+      "size": 411616
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7121.RDT",
+      "lba": 220831,
+      "size": 381412
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7130.RDT",
+      "lba": 221018,
+      "size": 348392
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7131.RDT",
+      "lba": 221189,
+      "size": 348368
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7140.RDT",
+      "lba": 221360,
+      "size": 345336
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7141.RDT",
+      "lba": 221529,
+      "size": 345380
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7150.RDT",
+      "lba": 221698,
+      "size": 386200
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7151.RDT",
+      "lba": 221887,
+      "size": 386200
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7160.RDT",
+      "lba": 222076,
+      "size": 492884
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7161.RDT",
+      "lba": 222317,
+      "size": 492884
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7170.RDT",
+      "lba": 222558,
+      "size": 595820
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7171.RDT",
+      "lba": 222849,
+      "size": 595820
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7180.RDT",
+      "lba": 223140,
+      "size": 161784
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7181.RDT",
+      "lba": 223219,
+      "size": 161784
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7190.RDT",
+      "lba": 223298,
+      "size": 180988
+    },
+    {
+      "path": "PSX/STAGE7/ROOM7191.RDT",
+      "lba": 223387,
+      "size": 182228
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71A0.RDT",
+      "lba": 223476,
+      "size": 245480
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71A1.RDT",
+      "lba": 223596,
+      "size": 245480
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71B0.RDT",
+      "lba": 223716,
+      "size": 223148
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71B1.RDT",
+      "lba": 223825,
+      "size": 223148
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71C0.RDT",
+      "lba": 223934,
+      "size": 359900
+    },
+    {
+      "path": "PSX/STAGE7/ROOM71C1.RDT",
+      "lba": 224110,
+      "size": 325260
+    },
+    {
+      "path": "PSX/VOICE/VOICE1.XAS",
+      "lba": 224270,
+      "size": 22708224
+    },
+    {
+      "path": "PSX/VOICE/VOICE2.XAS",
+      "lba": 235358,
+      "size": 10878976
+    },
+    {
+      "path": "PSX/VOICE/VOICE3.XAS",
+      "lba": 240670,
+      "size": 22773760
+    },
+    {
+      "path": "PSX/VOICE/VOICE4.XAS",
+      "lba": 251790,
+      "size": 11370496
+    },
+    {
+      "path": "PSX/VOICE/VOICE5.XAS",
+      "lba": 257342,
+      "size": 27394048
+    },
+    {
+      "path": "SLUS_001.70",
+      "lba": 270719,
+      "size": 653312
+    },
+    {
+      "path": "SYSTEM.CNF",
+      "lba": 270718,
+      "size": 69
+    },
+    {
+      "path": "ZNULL.DAT",
+      "lba": 271039,
+      "size": 37044000
+    }
+  ]
+}

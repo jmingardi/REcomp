@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a build problem or reproducible runtime issue.
+body:
+  - type: markdown
+    attributes:
+      value: Please read PROJECT_STATUS.md for current test coverage. Do not upload disc images, extracted/generated game code, save states or memory dumps.
+  - type: input
+    id: revision
+    attributes:
+      label: Project version or commit
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Windows version, CPU, GPU/driver, disc serial and selected runtime options.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log excerpts
+      description: Remove personal filesystem paths and include only the relevant portion.
+      render: text

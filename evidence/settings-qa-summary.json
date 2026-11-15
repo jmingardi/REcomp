@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-15",
+  "version": "0.0.2-dev",
+  "historical": true,
+  "status": "experimental",
+  "native_executable": "build/game/Release/Resident_Evil_Recompiled.exe",
+  "native_bytes": 33075712,
+  "native_sha256": "f16e4cdcf724c2d7644790a0d70d58d0c8a6fe61b228f9b17d09e33778b6c979",
+  "build_command": "python scripts/project.py build --qa",
+  "ordinary_launch_debug_listener": false,
+  "recomp_ui_commit": "3c641560c32ab55dc169f21daa9ba210a121eb96",
+  "selected_tests": {
+    "recompiler_passed": 7,
+    "ui_passed": 4,
+    "total": 11,
+    "full_upstream_suite": false,
+    "logs": [
+      "evidence/tests.log",
+      "evidence/tests-ui.log"
+    ]
+  },
+  "controller_profiles": {
+    "xbox": "SDL virtual: face, D-pad, stick, deadzone, Start, hotplug, release passed",
+    "dualshock": "SDL virtual: face, D-pad, stick, deadzone, Start, hotplug, release passed",
+    "dualsense": "SDL virtual: face, D-pad, stick, deadzone, Start, hotplug, release passed",
+    "generic": "SDL virtual: face, D-pad, stick, deadzone, Start, hotplug, release passed",
+    "guest_input_override": false,
+    "evidence": "evidence/qa-20261115T122258914979Z/controller-host-tests.json"
+  },
+  "physical_controller": {
+    "discovery": "Xbox 360 Controller detected by launcher",
+    "physical_buttons_verified": false,
+    "usb_bluetooth_transport_verified": false,
+    "all_hardware_verified": false
+  },
+  "controller_rebinding": {
+    "production_binding_writer_and_reload": true,
+    "live_swap": "passed",
+    "restart_persistence": "passed",
+    "reset_defaults": "passed",
+    "physical_ui_capture": false,
+    "evidence": "evidence/qa-20261115T123302569762Z/controller-rebind-persistence.json"
+  },
+  "keyboard": {
+    "ui_capture_and_restart": "passed",
+    "cross": "K",
+    "start": "I",
+    "up": "U",
+    "old_cross_X_inactive": true,
+    "input_method": "Owned-window Windows key messages through actual SDL keyboard mapper",
+    "guest_input_override": false,
+    "walking_and_inventory_visually_reviewed": true,
+    "evidence": "evidence/qa-20261115T121222562278Z/keyboard-host-tests.json"
+  },
+  "display": {
+    "window_size_persisted_and_observed": [
+      1280,
+      960
+    ],
+    "f10_pause_resume": "passed",
+    "fullscreen_menu_modes_observed": [
+      1,
+      2,
+      0
+    ],
+    "fullscreen_evidence": "evidence/qa-20261115T122258914979Z/fullscreen-live-tests.json",
+    "internal_resolution_ui_choice": "1x",
+    "effective_scale_after_restart": 1,
+    "internal_lines_after_restart": 240,
+    "resolution_evidence": "evidence/qa-20261115T123641035601Z/resolution-persistence.json"
+  },
+  "xbox_gameplay_route": {
+    "directory": "evidence/qa-20261115T122258914979Z",
+    "observed": [
+      "Jill selection",
+      "opening story",
+      "first door",
+      "dining room",
+      "walking",
+      "turning",
+      "camera changes",
+      "inventory"
+    ],
+    "later_frame": 22194,
+    "unknown_dispatches": 0,
+    "static_segment_misses": 0,
+    "exit_code": 0,
+    "interpreter_fallback_remains_enabled": true
+  },
+  "campaign_completed": false,
+  "audio_listening_verified": false,
+  "ordinary_memory_card_save_load_verified": false,
+  "qa_report": "qa/QA_REPORT_2026-11-15.md",
+  "latest_build_dualsense_gameplay_route": {
+    "directory": "evidence/qa-20261115T124114679581Z",
+    "native_sha256": "f16e4cdcf724c2d7644790a0d70d58d0c8a6fe61b228f9b17d09e33778b6c979",
+    "steps_completed": 20,
+    "guest_input_override": false,
+    "last_frame": 12009,
+    "unknown_dispatches": 0,
+    "static_segment_misses": 0,
+    "visually_reviewed": [
+      "dining room",
+      "walking",
+      "camera changes",
+      "inventory reopened"
+    ]
+  }
+}

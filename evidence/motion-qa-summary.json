@@ -1,0 +1,282 @@
+{
+  "version": "0.0.3-dev",
+  "date": "2026-11-15",
+  "status": "experimental opt-in",
+  "native_executable": "build/game/Release/Resident_Evil_Recompiled.exe",
+  "native_sha256": "7c4b0116e9dbbc0be8f147718fab0b8af40150418befd8f1fc7944cce81b4872",
+  "native_bytes": 33078272,
+  "default_enabled": false,
+  "selection": "Mods > 60 FPS Motion (Experimental)",
+  "method": "Recorded-geometry redraw; no guest-code reruns or guest-clock changes",
+  "requested_ceiling_fps": 60,
+  "actual_generation_ceiling_hz": 60.0,
+  "simulated_host_refresh_used_for_production_measurements": false,
+  "steady_turning": {
+    "elapsed": 8.000324399996316,
+    "guest_hz": 60.12256203013737,
+    "generated_fps": 29.99878354934089,
+    "managed_original_fps": 29.99878354934089,
+    "total_presented_fps": 59.99756709868178
+  },
+  "movement_and_transition_sample": {
+    "elapsed": 6.000100399993244,
+    "guest_hz": 60.165659894692176,
+    "generated_fps": 28.666186985836717,
+    "managed_original_fps": 28.666186985836717,
+    "total_presented_fps": 57.83236560514733
+  },
+  "image_pair_comparisons": [
+    {
+      "generated": "mod-on-walk_01_g_f1523.png",
+      "difference_bbox": [
+        185,
+        206,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_03_g_f1524.png",
+      "difference_bbox": [
+        185,
+        206,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_05_g_f1525.png",
+      "difference_bbox": [
+        185,
+        206,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_07_g_f1526.png",
+      "difference_bbox": [
+        185,
+        204,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_09_g_f1527.png",
+      "difference_bbox": [
+        185,
+        204,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_11_g_f1528.png",
+      "difference_bbox": [
+        185,
+        216,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_13_g_f1529.png",
+      "difference_bbox": [
+        185,
+        237,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_15_g_f1530.png",
+      "difference_bbox": [
+        185,
+        216,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_17_g_f1531.png",
+      "difference_bbox": [
+        185,
+        237,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_19_g_f1532.png",
+      "difference_bbox": [
+        185,
+        237,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_21_g_f1533.png",
+      "difference_bbox": [
+        185,
+        237,
+        223,
+        257
+      ]
+    },
+    {
+      "generated": "mod-on-walk_23_g_f1534.png",
+      "difference_bbox": [
+        185,
+        237,
+        223,
+        257
+      ]
+    }
+  ],
+  "cold_boot_route": {
+    "directory": "evidence/qa-20261115T130747981316Z",
+    "ui_checkbox_enabled": true,
+    "steps_completed": 20,
+    "last_observed_frame": 14909,
+    "guest_pad_override": -1,
+    "dispatch": {
+      "id": 1,
+      "ok": true,
+      "static_hits": 8495369,
+      "miss_total": 0,
+      "miss_unique": 0,
+      "segment_miss_total": 0,
+      "segment_miss_unique": 0
+    },
+    "exit_code": 0
+  },
+  "off_after_process_restart": {
+    "menu": {
+      "id": 1,
+      "ok": true,
+      "provider": "recomp-ui",
+      "attached": 1,
+      "default_selection": 0,
+      "open": 0,
+      "paused": 0,
+      "pause_depth": 0,
+      "ui_capture": 0,
+      "netplay": 0,
+      "internal_resolution": -104,
+      "fullscreen": 0,
+      "render_thread": 0,
+      "frame_generation": 0,
+      "disc_count": 0,
+      "disc_mounted": 0
+    },
+    "generation": {
+      "id": 1,
+      "ok": true,
+      "enabled": 0,
+      "active": 0,
+      "forced": 0,
+      "generated": 0,
+      "real": 0,
+      "flips": 0,
+      "dups": 0,
+      "flushed": 0,
+      "not_planned": 0,
+      "last_n": 0,
+      "slots": 0,
+      "flip_vblanks": 1,
+      "refresh_hz": 0.0,
+      "real_ms": 0.0,
+      "gen_ms": 0.0,
+      "gen_cpu_ms": 0.0,
+      "gen_gpu_ms": 0.0,
+      "swap_ms": 0.0,
+      "match_ms": 0.0,
+      "prims": 0,
+      "views": 0,
+      "pairs": 0,
+      "inliers": 0,
+      "src_triangles": 0,
+      "breaker_s": 0.0,
+      "trips": 0,
+      "last_trip": "",
+      "held_s": 0.0,
+      "last_hold": "",
+      "swaps": 225,
+      "gen_samples": 0,
+      "gen_cold": 0,
+      "gen_probes": 0,
+      "ignored_late": 0,
+      "ignored_bp": 0,
+      "real_cpu_ms": 0.0,
+      "real_gpu_ms": 0.0,
+      "ceiling": 15,
+      "trips_late": 0,
+      "trips_backed_up": 0,
+      "trips_behind": 0,
+      "place_camera": 0,
+      "place_object": 0,
+      "place_neighbour": 0,
+      "place_unchanged": 0,
+      "skip_unplaced": 0,
+      "rp_older": 0,
+      "pz_scale": 0.0,
+      "cam_angle_deg": 180.0,
+      "cam_shift": 0.0,
+      "clamped": 0,
+      "guessed": 0,
+      "verdict_ok": 0,
+      "rejected": 0,
+      "reject_why": "",
+      "noplan_why": "",
+      "rp_ms": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "rp_zn": 0,
+      "reprojected": 0,
+      "reproject_fallback": 0,
+      "reproject": 0,
+      "np": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "end_ahead": 0,
+      "end_bp": 0,
+      "end_phase": 0
+    },
+    "guest_hz": 59.88346079709608,
+    "dispatch": {
+      "id": 1,
+      "ok": true,
+      "static_hits": 639597,
+      "miss_total": 0,
+      "miss_unique": 0,
+      "segment_miss_total": 0,
+      "segment_miss_unique": 0
+    },
+    "savestate": {
+      "id": 1,
+      "ok": true,
+      "generation": 1,
+      "pending": 0,
+      "last_ok": 1,
+      "last_op": "load",
+      "last_slot": 0,
+      "polls": 1,
+      "wait": ""
+    }
+  },
+  "selected_checks_passed": 12,
+  "full_upstream_suite_passed": false,
+  "permanent_60_distinct_fps_guaranteed": false,
+  "all_rooms_and_occlusion_masks_verified": false,
+  "combat_timing_verified": false,
+  "audio_listening_verified": false,
+  "report": "qa/QA_MOTION_2026-11-15.md",
+  "counter_note": "Managed-original counts exclude unscheduled fallback originals; total presentation rate uses the swap counter."
+}

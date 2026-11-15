@@ -1,0 +1,22 @@
+format_version = 11
+id = "re1.enhancement.smooth-motion"
+version = "0.1.0"
+name = "60 FPS Motion (Experimental)"
+description = "Draw intermediate geometry frames up to 60 FPS while keeping the original game, audio and video timing. Uses OpenGL and the existing recorded-frame renderer. Extra motion may be unavailable during camera cuts, menus or scenes the renderer cannot safely match. Restart the game to apply."
+resolver = "declarative"
+save_compatibility = "shared"
+
+[[target]]
+game_id = "SLUS-00170"
+
+[[feature]]
+id = "smooth-motion"
+name = "60 FPS Motion (Experimental)"
+description = "Optional geometry interpolation at up to 60 FPS. Preserves gameplay speed. Uses original frames when motion cannot be matched safely; adds interpolation latency. Requires OpenGL. Restart to apply."
+group = "Visual"
+default_enabled = false
+
+[[plugin]]
+feature = "smooth-motion"
+id = "re1.smooth-motion"
+netplay = "host_only"

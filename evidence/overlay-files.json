@@ -1,0 +1,86 @@
+[
+  {
+    "path": "PSX/PROG2/ENDING.EXE",
+    "size": 26624,
+    "prefix_hex": "50532d58204558450000000000000000f85c0e800000000000000e8000600000",
+    "psx_exe_header": true,
+    "sha256": "c85e21954e42293b25a87bbbad116e5be17dbf8541b46cedfdfdd76f6d240fd3"
+  },
+  {
+    "path": "PSX/PROG2/LOGO.EXE",
+    "size": 6144,
+    "prefix_hex": "50532d58204558450000000000000000a8080e800000000000000e8000100000",
+    "psx_exe_header": true,
+    "sha256": "d4abf4af30281cb655b5e0a42422669961ca683d856a4aff6bce372b1c33a1f1"
+  },
+  {
+    "path": "PSX/PROG2/PROLOGUE.EXE",
+    "size": 4096,
+    "prefix_hex": "50532d58204558450000000000000000f4020e800000000000000e8000080000",
+    "psx_exe_header": true,
+    "sha256": "da51df476e879b4e92c1f7b105cd07de48644df5ff9cf02726acb078b3117833"
+  },
+  {
+    "path": "PSX/PROG2/SELECT.EXE",
+    "size": 24576,
+    "prefix_hex": "50532d58204558450000000000000000ac510e800000000000000e8000580000",
+    "psx_exe_header": true,
+    "sha256": "6662af3a7dc5ffca3a1d66c281ed7471190b352ecf5109f09de88b405a6093df"
+  },
+  {
+    "path": "PSX/PROG2/STAGE1.EXE",
+    "size": 122880,
+    "prefix_hex": "50532d58204558450000000000000000dc1e1280000000000054108000d80100",
+    "psx_exe_header": true,
+    "sha256": "ac5e3a5ec309040d0344ea9c67a0e8d313dca7cc4aa99508b258e0ac7da9d4da"
+  },
+  {
+    "path": "PSX/PROG2/STAGE2.EXE",
+    "size": 120832,
+    "prefix_hex": "50532d582045584500000000000000003c171280000000000054108000d00100",
+    "psx_exe_header": true,
+    "sha256": "2005073fd09e68a171e0dc10474dbe80979f4f5b101f798b1fc25d441cc1ba14"
+  },
+  {
+    "path": "PSX/PROG2/STAGE3.EXE",
+    "size": 190464,
+    "prefix_hex": "50532d5820455845000000000000000018271380000000000054108000e00200",
+    "psx_exe_header": true,
+    "sha256": "c4114cba3e9e7a1081c073f037c1b7d320c9aeb8046a25ca97344060202aac88"
+  },
+  {
+    "path": "PSX/PROG2/STAGE4.EXE",
+    "size": 192512,
+    "prefix_hex": "50532d5820455845000000000000000024311380000000000054108000e80200",
+    "psx_exe_header": true,
+    "sha256": "d020256b99cf2cc742ba3593dfadbefbfb5bf99db230d463c7cf9e7425139599"
+  },
+  {
+    "path": "PSX/PROG2/STAGE5.EXE",
+    "size": 169984,
+    "prefix_hex": "50532d58204558450000000000000000d4da1280000000000054108000900200",
+    "psx_exe_header": true,
+    "sha256": "26311f2b52f024aafdbfb91b9f25476c7b645c1cb76b92bb20607f041768425a"
+  },
+  {
+    "path": "PSX/PROG2/STAGE6.EXE",
+    "size": 151552,
+    "prefix_hex": "50532d58204558450000000000000000c08e1280000000000054108000480200",
+    "psx_exe_header": true,
+    "sha256": "a6eb023f4f7012177da2546b5e333f2afaa6f2b8759cdb9f03ad1a95f5413721"
+  },
+  {
+    "path": "PSX/PROG2/STAGE7.EXE",
+    "size": 163840,
+    "prefix_hex": "50532d58204558450000000000000000d4bd1280000000000054108000780200",
+    "psx_exe_header": true,
+    "sha256": "4ab098abcaf5dc0f8c4a367b7896c0e508d07b1d8912debeb99bf9339d7484df"
+  },
+  {
+    "path": "PSX/PROG2/TITLE.EXE",
+    "size": 8192,
+    "prefix_hex": "50532d58204558450000000000000000a8110e800000000000000e8000180000",
+    "psx_exe_header": true,
+    "sha256": "44f1089d4bf5078df7f08117862f9fb13e88585271ea8a0684db1e414d9e8d62"
+  }
+]

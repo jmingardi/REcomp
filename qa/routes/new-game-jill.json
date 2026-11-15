@@ -1,0 +1,22 @@
+[
+  {"at": 12, "label": "capcom-or-opening"},
+  {"at": 24, "label": "skip-title-movie", "buttons": 65527},
+  {"at": 38, "label": "title", "buttons": 65527},
+  {"at": 42, "label": "main-menu", "buttons": 49151},
+  {"at": 46, "label": "new-game", "buttons": 49151},
+  {"at": 50, "label": "character-choice", "buttons": 65503},
+  {"at": 54, "label": "confirm-character", "buttons": 49151},
+  {"at": 64, "label": "opening-movie", "buttons": 65527},
+  {"at": 72, "label": "opening-scene", "buttons": 65527},
+  {"at": 84, "label": "scene-or-gameplay", "buttons": 49151},
+  {"at": 100, "label": "mansion-introduction", "buttons": 49151},
+  {"at": 115, "label": "dialogue-1", "buttons": 49151},
+  {"at": 125, "label": "dialogue-2", "buttons": 49151},
+  {"at": 135, "label": "open-inventory", "buttons": 65527},
+  {"at": 145, "label": "close-inventory", "buttons": 65527},
+  {"at": 150, "label": "move-forward-2", "buttons": 65519, "frames": 120},
+  {"at": 155, "label": "after-forward-move", "buttons": 65519, "frames": 120},
+  {"at": 160, "label": "turn-right", "buttons": 65503, "frames": 30},
+  {"at": 165, "label": "move-after-turn", "buttons": 65519, "frames": 60},
+  {"at": 175, "label": "reopen-inventory", "buttons": 65527}
+]
