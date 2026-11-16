@@ -80,13 +80,25 @@ def restore(archive_path, expected_sha256, root=ROOT):
             raise ValueError("Private input ZIP differs from its manifest")
         # Validate every member before writing anything. No extractall, binaries,
         # scripts, saves, executable paths, absolute paths or traversal are allowed.
+        existing_bios = set()
         for name, digest in manifest["files"].items():
             if hashlib.sha256(archive.read(name)).hexdigest() != digest:
                 raise ValueError(f"Private input hash mismatch: {name}")
             destination = root.joinpath(*PurePosixPath(name).parts)
-            if not destination.resolve().is_relative_to(root.resolve()) or destination.exists():
+            if not destination.resolve().is_relative_to(root.resolve()):
                 raise ValueError("Refusing to escape the checkout or overwrite existing generated inputs")
+            if destination.exists():
+                # Pinned upstream tracks its MIT OpenBIOS generated C. Reuse it
+                # only when identical apart from checkout line endings.
+                if (re.fullmatch(BIOS, name) and destination.is_file()
+                        and destination.read_bytes().replace(b"\r\n", b"\n")
+                        == archive.read(name).replace(b"\r\n", b"\n")):
+                    existing_bios.add(name)
+                else:
+                    raise ValueError("Refusing to overwrite existing or mismatching generated inputs")
         for name in manifest["files"]:
+            if name in existing_bios:
+                continue
             destination = root.joinpath(*PurePosixPath(name).parts)
             destination.parent.mkdir(parents=True, exist_ok=True)
             destination.write_bytes(archive.read(name))

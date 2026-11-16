@@ -176,6 +176,29 @@ class ReleasePipelineTests(unittest.TestCase):
                 path.write_bytes(path.read_bytes().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n"))
         self.assertEqual(fingerprints(source), before)
 
+    def test_matching_upstream_openbios_is_reused_without_overwriting_it(self):
+        source = self.output / "source"
+        files = self.private_fixture(source)
+        with contextlib.redirect_stdout(io.StringIO()):
+            archive = pack(self.output / "private", source)
+        destination = self.output / "checkout"
+        for name in files:
+            if not name.startswith("generated/"):
+                target = destination / name
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes((source / name).read_bytes().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n"))
+        with contextlib.redirect_stdout(io.StringIO()):
+            restore(archive, hashlib.sha256(archive.read_bytes()).hexdigest(), destination)
+        self.assertEqual((destination / "third_party/psxrecomp/generated/OpenBIOS_full.c").read_bytes(), b"fixture\r\n")
+
+    def test_existing_game_generated_files_are_never_overwritten(self):
+        source = self.output / "source"
+        self.private_fixture(source)
+        with contextlib.redirect_stdout(io.StringIO()):
+            archive = pack(self.output / "private", source)
+        with self.assertRaisesRegex(ValueError, "Refusing to overwrite"):
+            restore(archive, hashlib.sha256(archive.read_bytes()).hexdigest(), source)
+
 
 if __name__ == "__main__":
     unittest.main()

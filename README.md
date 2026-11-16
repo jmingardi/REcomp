@@ -158,8 +158,9 @@ generated build inputs. No runner is installed on the maintainer's PC;
 players only extract the download and select their own supported CUE/BIN.
 Each successful run creates an unpublished GitHub draft by default. Automatic
 public publishing requires `RELEASE_PUBLISH_ENABLED=true` in repository variables.
-That switch is off while unset. The pipeline is prepared locally and has
-not yet been activated or run on GitHub.
+That switch is explicitly `false`. The workflow is activated on GitHub; private
+input access and source checks have passed. The initial hosted restore issue
+is being corrected before validating the full Windows build.
 
 - [PSXRecomp](https://github.com/RetroPortingToolKit/psxrecomp), pinned in
   `dependencies.lock.json`: primary framework, PolyForm Noncommercial 1.0.0.
