@@ -38,12 +38,17 @@ The read-only deploy key and encrypted Actions secret are configured, along with
 the pinned commit/checksum variables. Public publishing remains `false`. Public
 Actions allow official GitHub actions with full-SHA pinning, default read-only
 tokens, no PR approvals by workflows, and approval for all external contributors.
-Actions are disabled in the private storage repository. Workflow source changes
-are prepared on isolated branch `automation/windows-release-pipeline`; activation
-and the first end-to-end Actions build remain pending. No self-hosted runner,
-draft release or public binary release has been created by this setup yet.
+Actions are disabled in the private storage repository. Workflow PR #1 merged
+as `9b372f40237fe2cb338d5cbdb3dfaeff70c7fa9c`, activating the main-merge trigger.
+Run `43903891890` passed hosted source packaging/regressions and the private SSH
+checkout, then stopped because the pinned upstream already tracks matching MIT
+OpenBIOS C. The restore now reuses matching OpenBIOS files without rewriting
+them, while still refusing existing game-generated files or mismatching BIOS C.
+The fix has 17 local regression checks and actionlint validation; a complete
+hosted Windows build remains under validation. No self-hosted runner, draft
+release or public binary release has been created by this setup yet.
 
-Local pipeline verification: actionlint 1.7.12 passed; all 15 packaging/input/
+Local pipeline verification: actionlint 1.7.12 passed; all 17 packaging/input/
 publication-policy regression checks passed, as did the existing seven recompiler,
 four UI and one motion checks. UI verification first needed the relocated SDL3
 static test dependency rebuilt; the repeated UI checks passed. A private generated
