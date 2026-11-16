@@ -1,5 +1,6 @@
 * text=auto
 *.py text eol=lf
+*.yml text eol=lf
 *.cpp text eol=lf
 *.cmd text eol=crlf
 # Unified-diff context lines may contain a required single space.

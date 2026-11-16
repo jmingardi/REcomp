@@ -4,8 +4,18 @@ Initial target: Windows x64, original USA SLUS-00170 disc, stock single-player
 game behavior. The source uses PSXRecomp and Recomp UI pinned by commit, plus
 four framework patches and one responsive keyboard-layout patch.
 Source repository: https://github.com/jmingardi/REcomp. The repository contains
-setup sources and integration code; native release artifacts and a catalog
-listing remain pending. Publisher identity and project licensing have not
+setup sources and integration code. Local-only binary package 0.0.1 is under
+`dist/`; see `LOCAL_RELEASE_0.0.1.md` and `../qa/LOCAL_RELEASE_0.0.1.md`.
+Public binary release artifacts and a catalog listing remain pending.
+Actions release preparation is defined in
+[GITHUB_ACTIONS.md](GITHUB_ACTIONS.md): build/test a portable Windows candidate
+on GitHub-hosted Windows machines after each main merge/push, using a privately
+stored generated-source bundle instead of a local-PC runner. Attach the ZIP to an unpublished draft,
+and publish automatically only after `RELEASE_PUBLISH_ENABLED=true` is explicitly
+configured. The variable is explicitly `false` for now. Private input hosting
+and read-only access are configured. Workflow activation and the first end-to-end
+hosted Windows build remain pending.
+Publisher identity and project licensing have not
 been selected. Do not invent them or submit a catalog listing automatically.
 
 Before a playable release:

@@ -23,6 +23,7 @@ __pycache__/
 /psx_*.jsonl
 /starvation*.jsonl
 /dist/
+/_private-build-inputs/
 
 # Logs and local machine paths; curated evidence summaries are tracked.
 /evidence/*.log
