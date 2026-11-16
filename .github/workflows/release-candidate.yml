@@ -1,0 +1,125 @@
+name: Windows release pipeline
+run-name: Windows release from ${{ github.ref_name }} (run ${{ github.run_number }})
+
+# Main merges trigger a build. Public publishing stays OFF until explicitly
+# enabled with the repository variable RELEASE_PUBLISH_ENABLED=true.
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: Optional version override (blank uses 0.0.<workflow run number>)
+        type: string
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+jobs:
+  source:
+    name: Check inputs and source package
+    if: >-
+      github.repository == 'jmingardi/REcomp' &&
+      github.ref == 'refs/heads/main' &&
+      (github.event_name == 'push' ||
+      (github.actor == github.repository_owner && github.triggering_actor == github.repository_owner))
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      RELEASE_VERSION: ${{ inputs.version }}
+    outputs:
+      version: ${{ steps.version.outputs.version }}
+      publish: ${{ vars.RELEASE_PUBLISH_ENABLED == 'true' }}
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Validate package version
+        id: version
+        run: python scripts/build_release_candidate.py --run-number "$GITHUB_RUN_NUMBER" --check-version-only
+      - name: Test packaging checks
+        run: python -m unittest discover -s scripts -p 'test_release_pipeline.py' -v
+      - name: Package authored sources
+        run: python scripts/package_source.py
+      - name: Verify source ZIP and checksum
+        run: python -c "import sys; from pathlib import Path; sys.path.insert(0, 'scripts'); from verify_release import verify; version = Path('VERSION').read_text().strip(); verify(Path('dist') / f'resident-evil-recomp-source-{version}.zip', 'source', version)"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: source-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            dist/resident-evil-recomp-source-*.zip
+            dist/resident-evil-recomp-source-*.zip.sha256
+          if-no-files-found: error
+          retention-days: 7
+          compression-level: 0
+
+  windows:
+    name: Build Windows EXE on a GitHub-hosted machine
+    needs: source
+    runs-on: windows-2022
+    timeout-minutes: 120
+    # Only the final release step receives GH_TOKEN in its environment.
+    # Drafts are the default; publishing requires the repository variable.
+    permissions:
+      contents: write
+    env:
+      RELEASE_VERSION: ${{ needs.source.outputs.version }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.11'
+      - name: Validate private input settings
+        env:
+          INPUTS_COMMIT: ${{ vars.RECOMP_BUILD_INPUTS_COMMIT }}
+          INPUTS_SHA256: ${{ vars.RECOMP_BUILD_INPUTS_SHA256 }}
+          HAS_INPUTS_KEY: ${{ secrets.RECOMP_INPUTS_DEPLOY_KEY != '' }}
+        run: |
+          if ($env:INPUTS_COMMIT -notmatch '^[0-9a-f]{40}$' -or $env:INPUTS_SHA256 -notmatch '^[0-9a-f]{64}$' -or $env:HAS_INPUTS_KEY -ne 'true') {
+            throw 'Configure the private input commit, checksum and read-only deploy key before building.'
+          }
+      - name: Fetch pinned private generated inputs (read-only)
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: jmingardi/REcomp-build-inputs
+          ref: ${{ vars.RECOMP_BUILD_INPUTS_COMMIT }}
+          ssh-key: ${{ secrets.RECOMP_INPUTS_DEPLOY_KEY }}
+          persist-credentials: false
+          path: _private-build-inputs
+      - name: Build, run selected tests and verify portable package
+        env:
+          RECOMP_BUILD_INPUTS_SHA256: ${{ vars.RECOMP_BUILD_INPUTS_SHA256 }}
+        run: python scripts/build_release_candidate.py --version "$env:RELEASE_VERSION"
+      - name: Record candidate scope
+        run: |
+          'Windows candidate ZIP/checksum created on a disposable GitHub-hosted Windows machine.' >> $env:GITHUB_STEP_SUMMARY
+          'No Windows binary, disc image or personal save is uploaded to Actions artifacts.' >> $env:GITHUB_STEP_SUMMARY
+          'Selected automated checks passed. Inspect the extracted package and perform gameplay smoke QA before publishing.' >> $env:GITHUB_STEP_SUMMARY
+          'A draft is created after checks; public publishing requires RELEASE_PUBLISH_ENABLED=true.' >> $env:GITHUB_STEP_SUMMARY
+      - name: Package matching authored sources
+        run: python scripts/package_source.py
+      - name: Verify source release asset
+        run: python -c "import sys; from pathlib import Path; sys.path.insert(0, 'scripts'); from verify_release import verify; version = Path('VERSION').read_text().strip(); verify(Path('dist') / f'resident-evil-recomp-source-{version}.zip', 'source', version)"
+      - name: Create release (draft unless publishing is enabled)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_COMMIT: ${{ github.sha }}
+          PUBLISH_ENABLED: ${{ needs.source.outputs.publish }}
+        # Avoid a public Actions binary artifact: attach straight to a draft.
+        # Never replace existing releases/assets. The script creates a draft
+        # first; only an explicitly enabled run can publish that new draft.
+        run: |
+          $releaseArgs = @('scripts/create_github_release.py', '--version', $env:RELEASE_VERSION)
+          if ($env:PUBLISH_ENABLED -eq 'true') { $releaseArgs += '--publish' }
+          python @releaseArgs

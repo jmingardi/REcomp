@@ -33,6 +33,17 @@ psxrecomp_add_game_runtime(psx-runtime
 target_sources(psx-runtime PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src/settings_menu.cpp")
 target_sources(psx-runtime PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/src/smooth_motion.cpp")
 
+set(RE1_RELEASE_VERSION "" CACHE STRING "Optional local Windows release version (major.minor.patch)")
+if(WIN32 AND NOT RE1_RELEASE_VERSION STREQUAL "")
+    if(NOT RE1_RELEASE_VERSION MATCHES "^[0-9]+\\.[0-9]+\\.[0-9]+$")
+        message(FATAL_ERROR "RE1_RELEASE_VERSION must be major.minor.patch")
+    endif()
+    enable_language(RC)
+    string(REPLACE "." "," RE1_WINDOWS_VERSION "${RE1_RELEASE_VERSION}")
+    configure_file("src/windows_version.rc.in" "windows_version.rc" @ONLY)
+    target_sources(psx-runtime PRIVATE "${CMAKE_CURRENT_BINARY_DIR}/windows_version.rc")
+endif()
+
 if(MSVC AND CMAKE_C_COMPILER_ID STREQUAL "MSVC")
     # MSVC requires an explicit opt-in for the runtime's C11 atomic sources.
     foreach(_source audio_trace.c gpu_gl_renderer.c guest_tty.c host_overlay.c

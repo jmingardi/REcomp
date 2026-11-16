@@ -1,13 +1,71 @@
 # Resident Evil Recompiled status
 
-Updated 2026-11-15. Version: `0.0.3-dev`. Experimental local Windows x64 port;
+Updated 2026-11-16. Version: `0.0.3-dev`. Experimental local Windows x64 port;
 not a published release or a completed campaign validation.
 
 GitHub source repository: https://github.com/jmingardi/REcomp, branch `main`.
 The independent repository contains authored source/setup files and curated QA
 metadata. Original discs, extracted/generated game code, native builds, caches,
-personal saves and raw QA captures remain local. Native binary releases and
+personal saves and raw QA captures remain local. Public native releases and
 a Decomp Buddy listing are still pending.
+
+GitHub Actions release preparation added locally on 2026-11-16:
+`.github/workflows/release-candidate.yml` builds each merge/push to main; owner-only
+manual runs are also available. A hosted source-package check precedes a
+GitHub-hosted Windows x64 build from a privately stored generated-input bundle.
+The earlier local-PC runner proposal was withdrawn after the public-repository
+security concern; no self-hosted runner is used. The workflow runs selected checks,
+packages the versioned EXE/runtime and verifies payload hashes/exclusions.
+Windows ZIP/checksum attach directly to a new draft prerelease, without public
+Actions binary artifacts. Versions default to `0.0.<workflow run number>`.
+Automatic publication requires repository variable `RELEASE_PUBLISH_ENABLED=true`;
+unset means draft only. The switch has not been enabled. Player downloads require only their
+own supported CUE/BIN, without compilation or GitHub credentials. Setup and
+release-note templates are in `docs/GITHUB_ACTIONS.md`, `docs/WINDOWS_PACKAGE.md`
+and `docs/RELEASE_NOTES_TEMPLATE.md`. GitHub CLI authentication was restored and
+verified as `jmingardi`; authenticated commands require the Windows user credential
+context outside the restricted workspace session. GitHub now has an active
+`Protect main` ruleset, `.github/CODEOWNERS`, and `RELEASE_PUBLISH_ENABLED=false`.
+Private input repository created at https://github.com/jmingardi/REcomp-build-inputs
+on 2026-11-16 at the user's request. GitHub reports visibility `PRIVATE`, default
+branch `main`. The workflow now fetches a pinned private input commit using a
+read-only deploy key (`RECOMP_INPUTS_DEPLOY_KEY`), checks
+`RECOMP_BUILD_INPUTS_SHA256`, and restores the schema-2 snapshot. Text codegen
+fingerprints normalize LF/CRLF while preserving patch bytes. The approved input
+bundle is now uploaded privately at commit `2fa1c61eb490e534fcfe867ab5dba07a72b7e3b6`,
+SHA-256 `76f9949ee4418f57d833052e79cd6fd3a9021600e2e65739b7b5d1644d76ca73`.
+The read-only deploy key and encrypted Actions secret are configured, along with
+the pinned commit/checksum variables. Public publishing remains `false`. Public
+Actions allow official GitHub actions with full-SHA pinning, default read-only
+tokens, no PR approvals by workflows, and approval for all external contributors.
+Actions are disabled in the private storage repository. Workflow source changes
+are prepared on isolated branch `automation/windows-release-pipeline`; activation
+and the first end-to-end Actions build remain pending. No self-hosted runner,
+draft release or public binary release has been created by this setup yet.
+
+Local pipeline verification: actionlint 1.7.12 passed; all 15 packaging/input/
+publication-policy regression checks passed, as did the existing seven recompiler,
+four UI and one motion checks. UI verification first needed the relocated SDL3
+static test dependency rebuilt; the repeated UI checks passed. A private generated
+snapshot (81 payload files, about 18 MB compressed) round-tripped into an isolated
+directory with matching fingerprints/hashes. Portable candidate ZIP/checksum
+verification passed using the existing 0.0.1 local executable; no fresh cloud
+compilation or new final-gameplay smoke test is claimed. Validation artifacts are
+isolated under `dist/pipeline-validation/`; the private input ZIP/checksum is under
+ignored `dist/private-inputs/`. Existing local 0.0.1 artifacts were preserved.
+
+Local binary package **0.0.1** was built separately from these `0.0.3-dev`
+sources in `build/local-release-0.0.1/`, with QA/debug tools disabled and Windows
+file/product version 0.0.1. Portable folder, ZIP and SHA-256 companion are under
+`dist/Resident-Evil-Recompiled-0.0.1-Windows-x64-local*`. It includes runtime
+assets, OpenBIOS, app-local Microsoft C++ DLLs, notices and fresh preferences;
+no game disc, personal cards or development toolchain. Nothing was uploaded.
+An extracted copy outside the source tree passed launcher/controller/display
+view checks, native boot/title and keyboard menu input, quick-save thumbnail
+creation, frame progression and clean close. F10 was sent to open/resume;
+its framebuffer was not captured in this sandbox. This is a limited smoke
+test, not campaign or original memory-card save/load validation. See
+`qa/LOCAL_RELEASE_0.0.1.md` and `docs/LOCAL_RELEASE_0.0.1.md`.
 
 Workspace layout updated 2026-11-15: the complete project now lives under
 `Resident Evil Recomp/`. Original disc files, saves, dependencies, generated
