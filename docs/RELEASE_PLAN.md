@@ -13,9 +13,9 @@ on GitHub-hosted Windows machines after each main merge/push, using a privately
 stored generated-source bundle instead of a local-PC runner. Attach the ZIP to an unpublished draft,
 and publish automatically only after `RELEASE_PUBLISH_ENABLED=true` is explicitly
 configured. The variable is explicitly `false` for now. Private input hosting
-and read-only access are configured, and the workflow is activated. The first
-full hosted Windows build is under validation; an initial matching-OpenBIOS
-restore issue is being corrected.
+and read-only access are configured, and the workflow is activated. Hosted build
+0.0.3 passed end-to-end and its draft ZIP/checksum were verified locally. Public
+publication and final gameplay/fresh-machine qualification remain pending.
 Publisher identity and project licensing have not
 been selected. Do not invent them or submit a catalog listing automatically.
 

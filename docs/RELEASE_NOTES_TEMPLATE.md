@@ -1,10 +1,10 @@
 Experimental Windows x64 build of Resident Evil Recompiled for the original
 PlayStation Resident Evil (USA), SLUS-00170.
 
-Download the **Windows-x64.zip**, extract the entire folder, and run
-**Run Resident Evil.cmd**. The ZIP contains the EXE and required runtime files;
-Python and build tools are unnecessary. Select your own supported CUE/BIN in
-the launcher. No game disc, retail BIOS or personal save is included.
+Download the **Windows-x64 ZIP**, extract the complete folder, and double-click
+**Resident_Evil_Recompiled.exe**. Keep the extracted files together. In the
+launcher, select your own supported Resident Evil (USA), SLUS-00170 CUE/BIN.
+No game disc, retail BIOS or personal save is included.
 
 The SHA-256 companion verifies the ZIP download. The source ZIP is for
 developers; its development version can differ from the Windows package version.

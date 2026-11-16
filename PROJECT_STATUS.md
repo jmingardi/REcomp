@@ -44,12 +44,30 @@ Run `43903891890` passed hosted source packaging/regressions and the private SSH
 checkout, then stopped because the pinned upstream already tracks matching MIT
 OpenBIOS C. The restore now reuses matching OpenBIOS files without rewriting
 them, while still refusing existing game-generated files or mismatching BIOS C.
-The fix has 17 local regression checks and actionlint validation. The next source
-run exposed a test-only LF/CRLF fixture issue on Linux; fixtures now preserve patch
-bytes and use explicit byte writes. Read-only source/policy checks are added to
-PRs on both Ubuntu and Windows, without private inputs. A complete hosted Windows
-build remains under validation. No self-hosted runner, draft
-release or public binary release has been created by this setup yet.
+The next source run exposed a test-only LF/CRLF fixture issue on Linux; fixtures
+now preserve patch bytes and use explicit byte writes. All 17 source/policy checks
+pass on Ubuntu and Windows and are required on main. The original code-owner
+review and owner-only PR bypass are preserved. CodeQL Actions, C/C++ and Python
+checks passed before PR #3 merged as `886cfcacd05047db8fbd6d9273f72391b06c8572`.
+
+Hosted run `43905494584` succeeded end to end in approximately 13 minutes:
+https://github.com/jmingardi/REcomp/actions/runs/43905494584.
+It compiled Windows x64 package **0.0.3**, passed seven recompiler/four UI/one
+motion checks, and created an **unpublished draft experimental prerelease** with
+four assets (Windows ZIP/checksum and authored-source ZIP/checksum). Draft:
+https://github.com/jmingardi/REcomp/releases (draft tag `v0.0.3`).
+The exact assets were downloaded and reverified locally: ZIP/manifest hashes,
+Windows x64 PE header, package version, candidate channel and source commit matched.
+Windows ZIP SHA-256: `8dccc7556236cf2519ebf3f5841072d4cafd7edbd73814d404f201b413ae823f`.
+EXE SHA-256: `2ee680efb7d651b66657d4a58ac70dbde0975192af400f78fd51f297abb0e1cc`.
+Local assets/extraction/report: `dist/pipeline-setup/hosted-0.0.3/`.
+Public publishing remains `false`; no self-hosted runner or public binary release
+was created. Direct launch of the hosted 0.0.3 EXE was verified in an isolated
+extracted copy with no command-line arguments/CMD wrapper: visible launcher after
+eight seconds and clean close (exit 0). Player instructions now name the EXE;
+the CMD helper is optional startup diagnostics. Evidence:
+`dist/pipeline-setup/direct-exe-check/report.json` and `startup.log`.
+Final gameplay smoke/fresh-machine qualification remains separate.
 
 Local pipeline verification: actionlint 1.7.12 passed; all 17 packaging/input/
 publication-policy regression checks passed, as did the existing seven recompiler,
@@ -57,8 +75,8 @@ four UI and one motion checks. UI verification first needed the relocated SDL3
 static test dependency rebuilt; the repeated UI checks passed. A private generated
 snapshot (81 payload files, about 18 MB compressed) round-tripped into an isolated
 directory with matching fingerprints/hashes. Portable candidate ZIP/checksum
-verification passed using the existing 0.0.1 local executable; no fresh cloud
-compilation or new final-gameplay smoke test is claimed. Validation artifacts are
+verification also passed using the existing 0.0.1 local executable; the hosted
+0.0.3 build is now verified above. No new final-gameplay smoke test is claimed. Validation artifacts are
 isolated under `dist/pipeline-validation/`; the private input ZIP/checksum is under
 ignored `dist/private-inputs/`. Existing local 0.0.1 artifacts were preserved.
 
