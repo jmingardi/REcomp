@@ -26,7 +26,7 @@ unverified. See [the recorded QA results](qa/QA_REPORT_2026-11-15.md).
 
 A portable **0.0.1 local binary release** is available in
 `dist/Resident-Evil-Recompiled-0.0.1-Windows-x64-local/`, with a ZIP and SHA-256
-file beside it. Double-click that folder's **Run Resident Evil.cmd**, then
+file beside it. Double-click that folder's **Resident_Evil_Recompiled.exe**, then
 browse to your own supported CUE. Python/build tools are unnecessary for the
 portable package. See [local release instructions](docs/LOCAL_RELEASE_0.0.1.md)
 and [its QA record](qa/LOCAL_RELEASE_0.0.1.md). This local binary package uses
@@ -158,9 +158,9 @@ generated build inputs. No runner is installed on the maintainer's PC;
 players only extract the download and select their own supported CUE/BIN.
 Each successful run creates an unpublished GitHub draft by default. Automatic
 public publishing requires `RELEASE_PUBLISH_ENABLED=true` in repository variables.
-That switch is explicitly `false`. The workflow is activated on GitHub; private
-input access and source checks have passed. The initial hosted restore issue
-is being corrected before validating the full Windows build.
+That switch is explicitly `false`. The hosted Windows build and checks passed;
+an unpublished 0.0.3 draft was created and its ZIP/checksum verified locally.
+See PROJECT_STATUS.md for the recorded run and remaining gameplay QA.
 
 - [PSXRecomp](https://github.com/RetroPortingToolKit/psxrecomp), pinned in
   `dependencies.lock.json`: primary framework, PolyForm Noncommercial 1.0.0.

@@ -1,8 +1,8 @@
 # Resident Evil Recompiled - experimental Windows package
 
 The VERSION file and the EXE's Windows file/product version identify this build.
-Extract the whole ZIP into a writable folder and double-click **Run Resident
-Evil.cmd**. Python, Visual Studio and the source repository are not needed.
+Extract the whole ZIP into a writable folder and double-click
+**Resident_Evil_Recompiled.exe**.
 Keep the EXE, runtime DLLs, assets, bios, mods and configuration together.
 
 In the launcher, select your own **Resident Evil (USA), PlayStation SLUS-00170**
@@ -10,7 +10,8 @@ CUE image; keep its BIN beside it. The disc is not included. Other editions,
 regions and standalone extracted game files have not been qualified.
 Choose controls under Player 1 / Configure, save the profile, then press Play.
 F10 opens/resumes the in-game display menu. Settings and new saves remain
-beside the EXE. The wrapper writes startup errors to last-run.log.
+beside the EXE. If startup fails, the optional **Run Resident Evil.cmd** helper
+records startup errors in last-run.log for troubleshooting.
 
 Keyboard: arrows = D-pad, X = Cross, S = Circle, Z = Square, A = Triangle,
 Enter = Start, right Shift = Select. Original presentation is 4:3; optional

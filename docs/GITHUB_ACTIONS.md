@@ -7,6 +7,7 @@ Owner-only manual runs on `main` are supported. Pull requests and tags do not
 trigger release builds. No runner runs on the maintainer's PC.
 `pull-request-checks.yml` separately runs source packaging/policy regressions on
 Ubuntu and Windows PR runners with read-only permissions and no private inputs.
+Both source checks are required by the main branch ruleset.
 
 **jmingardi/REcomp-build-inputs is private storage**, not another development
 branch. It supplies `inputs.zip`, a snapshot of generated game/overlay C and
@@ -23,7 +24,7 @@ artifact. The original disc remains on the maintainer's PC.
 ## Player downloads
 
 The eventual download is `Resident-Evil-Recompiled-<version>-Windows-x64.zip`.
-Players extract the entire folder, run **Run Resident Evil.cmd** and select
+Players extract the entire folder, run **Resident_Evil_Recompiled.exe** and select
 their own supported SLUS-00170 CUE/BIN. They need no compiler, Python, GitHub
 credentials or variables. Runtime DLLs, assets and OpenBIOS stay beside the EXE.
 

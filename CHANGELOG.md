@@ -11,6 +11,9 @@
   key. Normalize text checkout line endings when checking codegen fingerprints.
 - Allow isolated packaging output directories and a version-neutral candidate
   README; preserve the existing 0.0.1 local archive and its rebuild defaults.
+- Make direct EXE startup the primary portable-package instruction; retain the
+  CMD helper as optional diagnostics. Verify the hosted EXE opens its launcher
+  directly and closes cleanly.
 
 ## 0.0.3-dev - 2026-11-15
 
