@@ -44,8 +44,11 @@ Run `43903891890` passed hosted source packaging/regressions and the private SSH
 checkout, then stopped because the pinned upstream already tracks matching MIT
 OpenBIOS C. The restore now reuses matching OpenBIOS files without rewriting
 them, while still refusing existing game-generated files or mismatching BIOS C.
-The fix has 17 local regression checks and actionlint validation; a complete
-hosted Windows build remains under validation. No self-hosted runner, draft
+The fix has 17 local regression checks and actionlint validation. The next source
+run exposed a test-only LF/CRLF fixture issue on Linux; fixtures now preserve patch
+bytes and use explicit byte writes. Read-only source/policy checks are added to
+PRs on both Ubuntu and Windows, without private inputs. A complete hosted Windows
+build remains under validation. No self-hosted runner, draft
 release or public binary release has been created by this setup yet.
 
 Local pipeline verification: actionlint 1.7.12 passed; all 17 packaging/input/
