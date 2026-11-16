@@ -134,7 +134,7 @@ class ReleasePipelineTests(unittest.TestCase):
         for name in files:
             path = root / name
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text("fixture\n")
+            path.write_bytes(b"fixture\n")
         return files
 
     def test_private_inputs_exclude_disc_and_restore_into_a_clean_checkout(self):
@@ -186,7 +186,8 @@ class ReleasePipelineTests(unittest.TestCase):
             if not name.startswith("generated/"):
                 target = destination / name
                 target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes((source / name).read_bytes().replace(b"\r\n", b"\n").replace(b"\n", b"\r\n"))
+                data = (source / name).read_bytes()
+                target.write_bytes(data if target.suffix == ".patch" else data.replace(b"\r\n", b"\n").replace(b"\n", b"\r\n"))
         with contextlib.redirect_stdout(io.StringIO()):
             restore(archive, hashlib.sha256(archive.read_bytes()).hexdigest(), destination)
         self.assertEqual((destination / "third_party/psxrecomp/generated/OpenBIOS_full.c").read_bytes(), b"fixture\r\n")

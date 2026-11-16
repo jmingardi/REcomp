@@ -5,6 +5,8 @@ Each merge/push to `main` starts `.github/workflows/release-candidate.yml` and
 compiles a portable Windows package on a GitHub-hosted Windows 2022 machine.
 Owner-only manual runs on `main` are supported. Pull requests and tags do not
 trigger release builds. No runner runs on the maintainer's PC.
+`pull-request-checks.yml` separately runs source packaging/policy regressions on
+Ubuntu and Windows PR runners with read-only permissions and no private inputs.
 
 **jmingardi/REcomp-build-inputs is private storage**, not another development
 branch. It supplies `inputs.zip`, a snapshot of generated game/overlay C and
